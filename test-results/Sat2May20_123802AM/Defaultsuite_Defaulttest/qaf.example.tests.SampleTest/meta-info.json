@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testServeSearch",
+        "resultFileName": "TestServeSearch",
+        "sign": "SampleTest.testServeSearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]"
+      },
+      "dependsOn": [],
+      "startTime": 1588405082502,
+      "duration": 24148,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

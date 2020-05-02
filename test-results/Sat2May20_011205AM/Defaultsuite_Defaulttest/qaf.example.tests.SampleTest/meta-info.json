@@ -1,0 +1,84 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testServeSearch",
+        "resultFileName": "TestServeSearch",
+        "sign": "SampleTest.testServeSearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]"
+      },
+      "dependsOn": [],
+      "startTime": 1588407125907,
+      "duration": 25198,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testSearchBoxSearch",
+        "resultFileName": "TestSearchBoxSearch",
+        "sign": "SampleTest.testSearchBoxSearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]"
+      },
+      "dependsOn": [],
+      "startTime": 1588407151141,
+      "duration": 6382,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testRecipeSearch",
+        "resultFileName": "TestRecipeSearch",
+        "sign": "SampleTest.testRecipeSearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]"
+      },
+      "dependsOn": [],
+      "startTime": 1588407157550,
+      "duration": 19377,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testRecipeDropdownSearch",
+        "resultFileName": "TestRecipeDropdownSearch",
+        "sign": "SampleTest.testRecipeDropdownSearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]"
+      },
+      "dependsOn": [],
+      "startTime": 1588407177387,
+      "duration": 6997,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testRecipeDaySearch",
+        "resultFileName": "TestRecipeDaySearch",
+        "sign": "SampleTest.testRecipeDaySearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]"
+      },
+      "dependsOn": [],
+      "startTime": 1588407184466,
+      "duration": 7465,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

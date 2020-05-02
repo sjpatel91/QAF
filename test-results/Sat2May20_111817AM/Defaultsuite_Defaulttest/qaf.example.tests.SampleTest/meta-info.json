@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testRecipeSearch",
+        "resultFileName": "TestRecipeSearch",
+        "sign": "SampleTest.testRecipeSearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]"
+      },
+      "dependsOn": [],
+      "startTime": 1588443497976,
+      "duration": 43188,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

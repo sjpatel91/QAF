@@ -1,0 +1,324 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://www.food.com/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 4044
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[recipe.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a, using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 203 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58477}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir21676_199351392}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 84e8c89498cbcf3b02c939309be7b6f5\n*** Element info: {Using=xpath, value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a}",
+          "subLogs": [],
+          "duration": 206
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a, using=xpath}"
+          ],
+          "result": "id: 0.08711410549016363-1",
+          "subLogs": [],
+          "duration": 1947
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a",
+            "{\"id\":\"0.08711410549016363-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 585
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[dropdown.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/div[3]/div[1]/div/label, using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[3]/div[1]/div[3]/div[1]/div/label\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 192 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58477}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir21676_199351392}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 84e8c89498cbcf3b02c939309be7b6f5\n*** Element info: {Using=xpath, value=/html/body/div[3]/div[1]/div[3]/div[1]/div/label}",
+          "subLogs": [],
+          "duration": 193
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/div[3]/div[1]/div/label, using=xpath}"
+          ],
+          "result": "id: 0.5645368453760511-1",
+          "subLogs": [],
+          "duration": 297
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/div[3]/div[1]/div/label",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/div[3]/div[1]/div/label",
+            "{\"id\":\"0.5645368453760511-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 739
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[trending.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/div[3]/div[1]/div/ul/li[2]/a, using=xpath}"
+          ],
+          "result": "id: 0.5645368453760511-2",
+          "subLogs": [],
+          "duration": 40
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/div[3]/div[1]/div/ul/li[2]/a",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/div[3]/div[1]/div/ul/li[2]/a",
+            "{\"id\":\"0.5645368453760511-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1055
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifySelected",
+      "args": [
+        "[select.search]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 447 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58477}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir21676_199351392}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 84e8c89498cbcf3b02c939309be7b6f5\n*** Element info: {Using=xpath, value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']}",
+          "subLogs": [],
+          "duration": 448
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 19 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58477}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir21676_199351392}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 84e8c89498cbcf3b02c939309be7b6f5\n*** Element info: {Using=xpath, value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']}",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 28 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58477}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir21676_199351392}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 84e8c89498cbcf3b02c939309be7b6f5\n*** Element info: {Using=xpath, value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']}",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 34 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58477}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir21676_199351392}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 84e8c89498cbcf3b02c939309be7b6f5\n*** Element info: {Using=xpath, value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']}",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 46 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58477}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir21676_199351392}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 84e8c89498cbcf3b02c939309be7b6f5\n*** Element info: {Using=xpath, value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']}",
+          "subLogs": [],
+          "duration": 46
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 50 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58477}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir21676_199351392}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 84e8c89498cbcf3b02c939309be7b6f5\n*** Element info: {Using=xpath, value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']}",
+          "subLogs": [],
+          "duration": 51
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 29 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58477}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir21676_199351392}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 84e8c89498cbcf3b02c939309be7b6f5\n*** Element info: {Using=xpath, value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']}",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 33 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58477}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir21676_199351392}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 84e8c89498cbcf3b02c939309be7b6f5\n*** Element info: {Using=xpath, value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']}",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 33 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58477}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir21676_199351392}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 84e8c89498cbcf3b02c939309be7b6f5\n*** Element info: {Using=xpath, value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']}",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 34 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58477}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir21676_199351392}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 84e8c89498cbcf3b02c939309be7b6f5\n*** Element info: {Using=xpath, value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']}",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label'], using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 29 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58477}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir21676_199351392}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 84e8c89498cbcf3b02c939309be7b6f5\n*** Element info: {Using=xpath, value=//*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']}",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "isElementSelected",
+          "args": [
+            "By.xpath: //*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']",
+            "{\"id\":\"-1\"}"
+          ],
+          "result": "Timed out after 10 seconds waiting for presence of element located by: By.xpath: //*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label']\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: QAFExtendedWebDriver",
+          "subLogs": [],
+          "duration": -751468015
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get 'https://www.food.com/'",
+      "type": "TestStepPass",
+      "duration": 10388,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'recipe.search'",
+      "type": "TestStepPass",
+      "duration": 3776,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'dropdown.search'",
+      "type": "TestStepPass",
+      "duration": 2232,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'trending.search'",
+      "type": "TestStepPass",
+      "duration": 1098,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "verify 'select.search' is selected",
+      "type": "TestStepFail",
+      "screenshot": "img/TestRecipeDropdownSearch_kf8nl9ev3v01208.png",
+      "duration": 11381,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label'] selected : Actual By.xpath: //*[@name='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @id='/html/body/div[3]/div[1]/div[3]/div[1]/div/label' or @value='/html/body/div[3]/div[1]/div[3]/div[1]/div/label'] not selected",
+          "type": "Fail",
+          "screenshot": "img/TestRecipeDropdownSearch_kf8nl9ev3v01208.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

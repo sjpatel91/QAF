@@ -1,0 +1,524 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://www.food.com/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 3800
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[recipe.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a, using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 708 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50609}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir20064_552616653}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: a85aa6e21043c0248e58e3a099f3c449\n*** Element info: {Using=xpath, value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a}",
+          "subLogs": [],
+          "duration": 711
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a, using=xpath}"
+          ],
+          "result": "id: 0.2456557086603881-1",
+          "subLogs": [],
+          "duration": 1540
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a",
+            "{\"id\":\"0.2456557086603881-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 706
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[banana_recipe.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/div[3]/div[2]/div[1]/div/div[2]/div/h2/a, using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[3]/div[1]/div[3]/div[2]/div[1]/div/div[2]/div/h2/a\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 90 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50609}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir20064_552616653}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: a85aa6e21043c0248e58e3a099f3c449\n*** Element info: {Using=xpath, value=/html/body/div[3]/div[1]/div[3]/div[2]/div[1]/div/div[2]/div/h2/a}",
+          "subLogs": [],
+          "duration": 91
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/div[3]/div[2]/div[1]/div/div[2]/div/h2/a, using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[3]/div[1]/div[3]/div[2]/div[1]/div/div[2]/div/h2/a\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 282 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50609}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir20064_552616653}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: a85aa6e21043c0248e58e3a099f3c449\n*** Element info: {Using=xpath, value=/html/body/div[3]/div[1]/div[3]/div[2]/div[1]/div/div[2]/div/h2/a}",
+          "subLogs": [],
+          "duration": 282
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/div[3]/div[2]/div[1]/div/div[2]/div/h2/a, using=xpath}"
+          ],
+          "result": "id: 0.47471035452105337-1",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/div[3]/div[2]/div[1]/div/div[2]/div/h2/a",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/div[3]/div[2]/div[1]/div/div[2]/div/h2/a",
+            "{\"id\":\"0.47471035452105337-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2246
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[serve.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[1]/div[2]/a, using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[1]/div[2]/a\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 14 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50609}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir20064_552616653}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: a85aa6e21043c0248e58e3a099f3c449\n*** Element info: {Using=xpath, value=/html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[1]/div[2]/a}",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[1]/div[2]/a, using=xpath}"
+          ],
+          "result": "id: 0.24249388968034813-1",
+          "subLogs": [],
+          "duration": 1296
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[1]/div[2]/a",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[1]/div[2]/a",
+            "{\"id\":\"0.24249388968034813-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1187
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clear",
+      "args": [
+        "[serve_keys.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[3]/div/form/input, using=xpath}"
+          ],
+          "result": "id: 0.24249388968034813-2",
+          "subLogs": [],
+          "duration": 352
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[3]/div/form/input",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[3]/div/form/input",
+            "{\"id\":\"0.24249388968034813-2\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 114
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[-5, serve_keys.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[3]/div/form/input, using=xpath}"
+          ],
+          "result": "id: 0.24249388968034813-2",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[3]/div/form/input",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[3]/div/form/input",
+            "{\"value\":[\"-5\"],\"id\":\"0.24249388968034813-2\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 68
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[done_serve.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[3]/div/button[1]/span, using=xpath}"
+          ],
+          "result": "id: 0.24249388968034813-4",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[3]/div/button[1]/span",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[3]/div/button[1]/span",
+            "{\"id\":\"0.24249388968034813-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 100
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getText",
+      "args": [
+        "[ingredient.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=recipe-ingredients__ingredient-quantity, using=class name}"
+          ],
+          "result": "id: 0.24249388968034813-5",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.className: recipe-ingredients__ingredient-quantity",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.className: recipe-ingredients__ingredient-quantity",
+            "{\"id\":\"0.24249388968034813-5\"}"
+          ],
+          "result": "getElementText:1⁄2",
+          "subLogs": [],
+          "duration": 29
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertNotText",
+      "args": [
+        "[1⁄2, ]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='1⁄2' or @id='1⁄2' or @value='1⁄2'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='1⁄2' or @id='1⁄2' or @value='1⁄2'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 77
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='1⁄2' or @id='1⁄2' or @value='1⁄2'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='1⁄2' or @id='1⁄2' or @value='1⁄2'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='1⁄2' or @id='1⁄2' or @value='1⁄2'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='1⁄2' or @id='1⁄2' or @value='1⁄2'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='1⁄2' or @id='1⁄2' or @value='1⁄2'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='1⁄2' or @id='1⁄2' or @value='1⁄2'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='1⁄2' or @id='1⁄2' or @value='1⁄2'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='1⁄2' or @id='1⁄2' or @value='1⁄2'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='1⁄2' or @id='1⁄2' or @value='1⁄2'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 22
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get 'https://www.food.com/'",
+      "type": "TestStepPass",
+      "duration": 10712,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'recipe.search'",
+      "type": "TestStepPass",
+      "duration": 3989,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'banana_recipe.search'",
+      "type": "TestStepPass",
+      "duration": 4659,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'serve.search'",
+      "type": "TestStepPass",
+      "duration": 3504,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "clear 'serve_keys.search'",
+      "type": "TestStepPass",
+      "duration": 468,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys '-5' into 'serve_keys.search'",
+      "type": "TestStepPass",
+      "duration": 85,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'done_serve.search'",
+      "type": "TestStepPass",
+      "duration": 119,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "get text of 'ingredient.search'",
+      "type": "TestStepPass",
+      "duration": 55,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "assert '1⁄2' text is not ''",
+      "type": "TestStepFail",
+      "screenshot": "img/TestServeSearch_1s21gf45ea4i234315.png",
+      "duration": 11025,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@name='1⁄2' or @id='1⁄2' or @value='1⁄2'] present : Actual By.xpath: //*[@name='1⁄2' or @id='1⁄2' or @value='1⁄2'] not present",
+          "type": "Fail",
+          "screenshot": "img/TestServeSearch_108zsvkcnrhw034314.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "java.lang.AssertionError",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.AssertionError\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.assertNotText(QAFExtendedWebElement.java:1137)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.assertNotText_aroundBody132(CommonStep.java:1807)\r\n\tat com.qmetry.qaf.automation.step.CommonStep$AjcClosure133.run(CommonStep.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:130)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:80)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.assertNotText(CommonStep.java:1806)\r\n\tat qaf.example.tests.SampleTest.testServeSearch(SampleTest.java:73)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:778)\r\n\tat org.testng.TestRunner.run(TestRunner.java:632)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n"
+}

@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testRecipeDropdownSearch",
+        "resultFileName": "TestRecipeDropdownSearch",
+        "sign": "SampleTest.testRecipeDropdownSearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]"
+      },
+      "dependsOn": [],
+      "startTime": 1588385761430,
+      "duration": 26492,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

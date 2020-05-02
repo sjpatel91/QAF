@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testSearchBoxSearch",
+        "resultFileName": "TestSearchBoxSearch",
+        "sign": "SampleTest.testSearchBoxSearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]"
+      },
+      "dependsOn": [],
+      "startTime": 1588403239920,
+      "duration": 19284,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

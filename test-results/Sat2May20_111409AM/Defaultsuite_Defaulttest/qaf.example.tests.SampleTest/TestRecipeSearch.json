@@ -1,0 +1,508 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://www.food.com/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2693
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[recipe.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a, using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 490 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64338}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir7344_579985854}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: a3599429ef81acc30f2dcf9e920d4276\n*** Element info: {Using=xpath, value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a}",
+          "subLogs": [],
+          "duration": 495
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a, using=xpath}"
+          ],
+          "result": "id: 0.2718757305584161-1",
+          "subLogs": [],
+          "duration": 1391
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a",
+            "{\"id\":\"0.2718757305584161-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 398
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[banana_recipe.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/div[3]/div[2]/div[1]/div/div[2]/div/h2/a, using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[3]/div[1]/div[3]/div[2]/div[1]/div/div[2]/div/h2/a\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 77 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64338}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir7344_579985854}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: a3599429ef81acc30f2dcf9e920d4276\n*** Element info: {Using=xpath, value=/html/body/div[3]/div[1]/div[3]/div[2]/div[1]/div/div[2]/div/h2/a}",
+          "subLogs": [],
+          "duration": 77
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/div[3]/div[2]/div[1]/div/div[2]/div/h2/a, using=xpath}"
+          ],
+          "result": "id: 0.59590782123026-1",
+          "subLogs": [],
+          "duration": 1664
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/div[3]/div[2]/div[1]/div/div[2]/div/h2/a",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/div[3]/div[2]/div[1]/div/div[2]/div/h2/a",
+            "{\"id\":\"0.59590782123026-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 3005
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[full_recipe.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[2]/div/div/div[2]/div/div/div[15]/div[2]/a, using=xpath}"
+          ],
+          "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/div/div/div[2]/div/div/div[15]/div[2]/a\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.50 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64338}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir7344_579985854}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: a3599429ef81acc30f2dcf9e920d4276\n*** Element info: {Using=xpath, value=/html/body/div[2]/div/div/div[2]/div/div/div[15]/div[2]/a}",
+          "subLogs": [],
+          "duration": 1501
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[2]/div/div/div[2]/div/div/div[15]/div[2]/a, using=xpath}"
+          ],
+          "result": "id: 0.26103267706492983-1",
+          "subLogs": [],
+          "duration": 184
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[15]/div[2]/a",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[15]/div[2]/a",
+            "{\"id\":\"0.26103267706492983-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 179
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getText",
+      "args": [
+        "[title.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1, using=xpath}"
+          ],
+          "result": "id: 0.26103267706492983-2",
+          "subLogs": [],
+          "duration": 40
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1",
+            "{\"id\":\"0.26103267706492983-2\"}"
+          ],
+          "result": "getElementText:BEST BANANA BREAD",
+          "subLogs": [],
+          "duration": 31
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertAttribute",
+      "args": [
+        "[title.search, innerHTML, Best Banana Bread]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=/html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1, using=xpath}"
+          ],
+          "result": "[id: 0.26103267706492983-2]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1, using=xpath}"
+          ],
+          "result": "id: 0.26103267706492983-2",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1",
+            "{\"name\":\"innerHTML\",\"id\":\"0.26103267706492983-2\"}"
+          ],
+          "result": "getElementAttribute:Best Banana Bread",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1, using=xpath}"
+          ],
+          "result": "id: 0.26103267706492983-2",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1",
+            "{\"name\":\"innerHTML\",\"id\":\"0.26103267706492983-2\"}"
+          ],
+          "result": "getElementAttribute:Best Banana Bread",
+          "subLogs": [],
+          "duration": 8
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "getText",
+      "args": [
+        "[title.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1, using=xpath}"
+          ],
+          "result": "id: 0.26103267706492983-2",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1",
+            "{\"id\":\"0.26103267706492983-2\"}"
+          ],
+          "result": "getElementText:BEST BANANA BREAD",
+          "subLogs": [],
+          "duration": 11
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyText",
+      "args": [
+        "[BEST BANANA BREAD, Best Banana Bread]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='BEST BANANA BREAD' or @id='BEST BANANA BREAD' or @value='BEST BANANA BREAD'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='BEST BANANA BREAD' or @id='BEST BANANA BREAD' or @value='BEST BANANA BREAD'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 101
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='BEST BANANA BREAD' or @id='BEST BANANA BREAD' or @value='BEST BANANA BREAD'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 43
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='BEST BANANA BREAD' or @id='BEST BANANA BREAD' or @value='BEST BANANA BREAD'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='BEST BANANA BREAD' or @id='BEST BANANA BREAD' or @value='BEST BANANA BREAD'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='BEST BANANA BREAD' or @id='BEST BANANA BREAD' or @value='BEST BANANA BREAD'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='BEST BANANA BREAD' or @id='BEST BANANA BREAD' or @value='BEST BANANA BREAD'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='BEST BANANA BREAD' or @id='BEST BANANA BREAD' or @value='BEST BANANA BREAD'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='BEST BANANA BREAD' or @id='BEST BANANA BREAD' or @value='BEST BANANA BREAD'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='BEST BANANA BREAD' or @id='BEST BANANA BREAD' or @value='BEST BANANA BREAD'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='BEST BANANA BREAD' or @id='BEST BANANA BREAD' or @value='BEST BANANA BREAD'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 23
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get 'https://www.food.com/'",
+      "type": "TestStepPass",
+      "duration": 9021,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'recipe.search'",
+      "type": "TestStepPass",
+      "duration": 3318,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'banana_recipe.search'",
+      "type": "TestStepPass",
+      "duration": 5749,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'full_recipe.search'",
+      "type": "TestStepPass",
+      "duration": 2870,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "get text of 'title.search'",
+      "type": "TestStepPass",
+      "duration": 73,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "assert 'title.search' attribute 'innerHTML' value is 'Best Banana Bread'",
+      "type": "TestStepPass",
+      "duration": 588,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1 attribute should be Best Banana Bread : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1 attribute is Best Banana Bread",
+          "type": "Pass",
+          "screenshot": "img/TestRecipeSearch_mns3qdaebky118527.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "get text of 'title.search'",
+      "type": "TestStepPass",
+      "duration": 26,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "verify 'BEST BANANA BREAD' text is 'Best Banana Bread'",
+      "type": "TestStepFail",
+      "screenshot": "img/TestRecipeSearch_huloe5czroau18528.png",
+      "duration": 10843,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@name='BEST BANANA BREAD' or @id='BEST BANANA BREAD' or @value='BEST BANANA BREAD'] present : Actual By.xpath: //*[@name='BEST BANANA BREAD' or @id='BEST BANANA BREAD' or @value='BEST BANANA BREAD'] not present",
+          "type": "Fail",
+          "screenshot": "img/TestRecipeSearch_huloe5czroau18528.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}
