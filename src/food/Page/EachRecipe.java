@@ -39,6 +39,12 @@ public class EachRecipe extends WebDriverBaseTestPage<WebDriverTestPage> {
 	
 	@FindBy(locator = "ingredient.search")
 	private QAFWebElement ingredient;
+	
+	@FindBy(locator = "yield.search")
+	private QAFWebElement yield;
+	
+	@FindBy(locator = "yield_value.search")
+	private QAFWebElement yield_value;
 
 	@Override
     protected void openPage(PageLocator arg0, Object... arg1) {
@@ -68,5 +74,11 @@ public class EachRecipe extends WebDriverBaseTestPage<WebDriverTestPage> {
 	}
 	public QAFWebElement getIngredient() {
 		return ingredient;
+	}
+	public QAFWebElement getYield() {
+		return yield;
+	}
+	public QAFWebElement getYield_value() {
+		return yield_value;
 	}
 }

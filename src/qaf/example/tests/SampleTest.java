@@ -1,9 +1,5 @@
 package qaf.example.tests;
 
-import static com.qmetry.qaf.automation.step.CommonStep.get;
-import static com.qmetry.qaf.automation.step.CommonStep.verifyLinkWithPartialTextPresent;
-import static com.qmetry.qaf.automation.step.CommonStep.click;
-import static com.qmetry.qaf.automation.step.CommonStep.sendKeys;
 import static com.qmetry.qaf.automation.step.CommonStep.*;
 import static qaf.example.steps.StepsLibrary.*;
 
@@ -13,6 +9,8 @@ import org.testng.annotations.Test;
 
 import com.qmetry.qaf.automation.ui.WebDriverTestCase;
 import com.thoughtworks.selenium.webdriven.commands.GetAttribute;
+
+import qaf.example.steps.StepsLibraryRecipe;
 
 public class SampleTest extends WebDriverTestCase {
 
@@ -67,7 +65,14 @@ public class SampleTest extends WebDriverTestCase {
 		assertAttribute("message_recipe.search", "innerHTML", "Bad Request");
 		
 	}
-	
+	@Test
+	public void testYieldSearch() {
+		StepsLibraryRecipe s = new StepsLibraryRecipe();
+		get("https://www.food.com/");
+		yieldSearch();
+		assertAttribute("yield_value.search", "innerHTML", "1");	
+		
+	}
 	
 	
 	

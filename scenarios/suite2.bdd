@@ -8,7 +8,7 @@ META-DATA: {"description":"recipe","groups":["SMOKE"]}
 END
 
 SCENARIO: recipeDropdownSearch
-META-DATA: {"description":"recipe","groups":["SMOKE"]}
+META-DATA: {"description":"dropdown recipe types","groups":["SMOKE"]}
 	
 	Given get 'https://www.food.com/'
 	When I go to food.com, and select recipe section 
@@ -16,7 +16,7 @@ META-DATA: {"description":"recipe","groups":["SMOKE"]}
 END
 
 SCENARIO: recipeDaySearch
-META-DATA: {"description":"recipe","groups":["SMOKE"]}
+META-DATA: {"description":"recipe of day","groups":["SMOKE"]}
 	
 	Given get 'https://www.food.com/'
 	When I go to food.com, and select recipe section 
@@ -24,19 +24,27 @@ META-DATA: {"description":"recipe","groups":["SMOKE"]}
 END
 
 SCENARIO: serveSearch
-META-DATA: {"description":"recipe","groups":["SMOKE"]}
+META-DATA: {"description":"serve size","groups":["SMOKE"]}
 	
 	Given get 'https://www.food.com/'
 	When I go to food.com, and select recipe section 
-	Then I am trying to with serve size with negative numbers
+	Then I am trying to verify serve size with negative numbers
 END
 
 SCENARIO: searchRecipeSearch
-META-DATA: {"description":"recipe","groups":["SMOKE"]}
+META-DATA: {"description":"search of recipe","groups":["SMOKE"]}
 	
 	Given get 'https://www.food.com/'
 	When I go to food.com, and select recipe section 
 	Then I am verifying search box with % sign
+END
+
+SCENARIO: yieldSearch
+META-DATA: {"description":"yield size","groups":["SMOKE"]}
+	
+	Given get 'https://www.food.com/'
+	When I go to food.com, and select recipe section 
+	Then I am trying to verify yield size with 0
 END
 
 

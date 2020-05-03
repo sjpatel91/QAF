@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testYieldSearch",
+        "resultFileName": "TestYieldSearch",
+        "sign": "RecipeTest.testYieldSearch()[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]"
+      },
+      "dependsOn": [],
+      "startTime": 1588481148962,
+      "duration": 21011,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

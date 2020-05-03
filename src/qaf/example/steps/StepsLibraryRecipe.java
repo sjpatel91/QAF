@@ -55,7 +55,7 @@ public class StepsLibraryRecipe extends WebDriverTestCase{
 		
 	}
 	
-	@QAFTestStep(description = "I am trying to with serve size with negative numbers")
+	@QAFTestStep(description = "I am trying to verify serve size with negative numbers")
 	public static void serveSearch() {
 		Recipe rec = new Recipe();
 		EachRecipe each_rec = new EachRecipe();
@@ -74,9 +74,19 @@ public class StepsLibraryRecipe extends WebDriverTestCase{
 		baseSection();
 		rec.getSearch_recipe().sendKeys("%");
 		rec.getSearch_recipe().submit();
-//		sendKeys("%", "search_recipe.search");
-//		submit("search_recipe.search");
 	}
 	
+	@QAFTestStep(description = "I am trying to verify yield size with 0")
+	public static void yieldSearch() {
+		Recipe rec = new Recipe();
+		EachRecipe each_rec = new EachRecipe();
+		baseSection();
+		rec.getBananaRecipe().click();
+		each_rec.getYield().click();
+		each_rec.getServe_keys().clear();
+		each_rec.getServe_keys().sendKeys("0");
+		each_rec.getDone_serve().click();
+		
+	}
 	
 }

@@ -1,0 +1,66 @@
+[RemoteTestNG] detected TestNG version 6.10.0
+[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+log4j:WARN No appenders could be found for logger (com.qmetry.qaf.automation.testng.pro.QAFAnnotationTransformer2).
+log4j:WARN Please initialize the log4j system properly.
+Added "QAFMethodSelector"
+[TestNG] Running:
+  C:\Users\sjpat\AppData\Local\Temp\testng-eclipse--1012986615\testng-customsuite.xml
+
+Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 48322
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 02, 2020 9:57:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+May 02, 2020 9:57:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Falling back to original OSS JSON Wire Protocol.
+May 02, 2020 9:57:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+[1588481836.844][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481836.945][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481837.062][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481837.201][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481837.335][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481837.436][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481837.789][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481838.661][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481844.775][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481844.879][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481844.986][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481845.087][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481845.189][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481845.290][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481845.392][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481845.576][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481855.963][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481856.066][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481856.168][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481856.269][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481856.404][SEVERE]: Timed out receiving message from renderer: 0.100
+expected "-50" to match glob "10" (had transformed the glob into regexp "10"
+expected "5" to match glob "" (had transformed the glob into regexp ""
+[1588481872.274][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588481872.375][SEVERE]: Timed out receiving message from renderer: 0.100
+PASSED: testYieldSearch
+PASSED: testServeSearch
+PASSED: testSearchBoxSearch
+PASSED: testRecipeSearch
+PASSED: testRecipeDropdownSearch
+PASSED: testRecipeDaySearch
+
+===============================================
+    Default test
+    Tests run: 6, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 6, Failures: 0, Skips: 0
+===============================================
+
+[TestNG] Time taken by org.testng.reporters.jq.Main@4d18aa28: 83 ms
+[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@57fd91c9: 39 ms
+[TestNG] Time taken by [FailedReporter passed=0 failed=0 skipped=0]: 0 ms
+[TestNG] Time taken by org.testng.reporters.EmailableReporter2@20a8a64e: 8 ms
+[TestNG] Time taken by org.testng.reporters.XMLReporter@65b3a85a: 22 ms
+[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@2cae1042: 30 ms
