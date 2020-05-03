@@ -1,0 +1,14 @@
+
+SCENARIO: RecipeSearch
+META-DATA: {"description":"recipe","groups":["SMOKE"]}
+	
+	Given get 'https://www.food.com/'
+	When "I go to food.com, and select recipe section" 
+	Then 
+END
+
+
+
+
+
+

@@ -2,6 +2,86 @@
   "reports": [
     {
       "name": "Default suite",
+      "dir": "test-results/Sat2May20_081920PM",
+      "startTime": 1588475960080
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/Sat2May20_081720PM",
+      "startTime": 1588475840961
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/Sat2May20_081426PM",
+      "startTime": 1588475666571
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/Sat2May20_081253PM",
+      "startTime": 1588475573251
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/Sat2May20_081046PM",
+      "startTime": 1588475446014
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/Sat2May20_080715PM",
+      "startTime": 1588475235966
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/Sat2May20_080413PM",
+      "startTime": 1588475053529
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/Sat2May20_075613PM",
+      "startTime": 1588474573644
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/Sat2May20_074527PM",
+      "startTime": 1588473927214
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/Sat2May20_074231PM",
+      "startTime": 1588473751170
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/Sat2May20_071048PM",
+      "startTime": 1588471848786
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Sat2May20_065901PM",
+      "startTime": 1588471141931
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Sat2May20_065727PM",
+      "startTime": 1588471047216
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Sat2May20_061424PM",
+      "startTime": 1588468464298
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Sat2May20_061239PM",
+      "startTime": 1588468359524
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/Sat2May20_035517PM",
+      "startTime": 1588460117450
+    },
+    {
+      "name": "Default suite",
       "dir": "test-results/Sat2May20_020722PM",
       "startTime": 1588453642473
     },

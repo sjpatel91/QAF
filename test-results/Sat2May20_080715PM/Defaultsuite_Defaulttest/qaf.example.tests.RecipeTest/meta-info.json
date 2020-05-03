@@ -1,0 +1,36 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testServeSearch",
+        "resultFileName": "TestServeSearch",
+        "sign": "RecipeTest.testServeSearch()[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]"
+      },
+      "dependsOn": [],
+      "startTime": 1588475236104,
+      "duration": 28566,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testSearchBoxSearch",
+        "resultFileName": "TestSearchBoxSearch",
+        "sign": "RecipeTest.testSearchBoxSearch()[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]"
+      },
+      "dependsOn": [],
+      "startTime": 1588475265260,
+      "duration": 4536,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

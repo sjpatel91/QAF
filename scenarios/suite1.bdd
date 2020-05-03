@@ -7,6 +7,15 @@ META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
 	Then verify link with partial text 'qaf' is present
 END
 
+SCENARIO: SampleTest
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+	
+	Given get '/'
+	When recipe search 'qaf github infostretch'
+	Then verify link with partial text 'qaf' is present
+END
+
+
 
 
 

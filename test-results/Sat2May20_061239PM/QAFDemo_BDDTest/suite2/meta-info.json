@@ -1,0 +1,25 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "recipe",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 2,
+        "name": "RecipeSearch",
+        "reference": "scenarios/suite2.bdd",
+        "resultFileName": "RecipeSearch",
+        "sign": "scenarios.suite2.bdd.RecipeSearch()[pri:1002, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]"
+      },
+      "dependsOn": [],
+      "startTime": 1588468369875,
+      "duration": 10756,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

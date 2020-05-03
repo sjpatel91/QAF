@@ -13,17 +13,17 @@ public class StepsLibrary {
 	 * @param searchTerm
 	 *            : search term to be searched
 	 */
-	@QAFTestStep(description = "search for {0}")
-	public static void searchFor(String searchTerm) {
-		sendKeys(searchTerm, "input.search");
-		click("button.search");
-	}
+//	@QAFTestStep(description = "search for {0}")
+//	public static void searchFor(String searchTerm) {
+//		sendKeys(searchTerm, "input.search");
+//		click("button.search");
+//	}
 	@QAFTestStep(description = "search for {0}")
 	public static void baseSection() {
 		click("recipe.search");
 		}
 	
-	@QAFTestStep(description = "search for {0}")
+	@QAFTestStep(description = "recipe search {0}")
 	public static void recipeSearch() {
 		baseSection();
 		click("banana_recipe.search");
