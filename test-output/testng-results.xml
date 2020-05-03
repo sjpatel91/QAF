@@ -2,30 +2,30 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
     <line>
-      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'banana_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'yield.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>clear 'serve_keys.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '0' into 'serve_keys.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'done_serve.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'yield_value.search' attribute 'innerHTML' value is '1'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[2]/div[1]/a/span[1] attribute should be 1 : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[2]/div[1]/a/span[1] attribute is 1 <a href="img/TestYieldSearch_1r1hvg0seiyep27834.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'yield_value.search' attribute 'innerHTML' value is '1'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[2]/div[1]/a/span[1] attribute should be 1 : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[2]/div[1]/a/span[1] attribute is 1 <a href="img/TestYieldSearch_q6660cta6wqr17146.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
     </line>
     <line>
-      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'banana_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'serve.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>clear 'serve_keys.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '-5' into 'serve_keys.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'done_serve.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'serve.search' attribute 'innerHTML' value is '-50'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[1]/div[2]/a attribute should be -50 : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[1]/div[2]/a attribute is -50 <a href="img/TestServeSearch_4u46t2dken5x27835.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'ingredient.search' attribute 'innerHTML' value is not '5'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.className: recipe-ingredients__ingredient-quantity attribute should not be 5 : Actual By.className: recipe-ingredients__ingredient-quantity attribute is  <a href="img/TestServeSearch_vdin9ydxktlo27836.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'serve.search' attribute 'innerHTML' value is '-50'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[1]/div[2]/a attribute should be -50 : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[1]/div[2]/a attribute is -50 <a href="img/TestServeSearch_80u92g02kwxi17147.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'ingredient.search' attribute 'innerHTML' value is not '5'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.className: recipe-ingredients__ingredient-quantity attribute should not be 5 : Actual By.className: recipe-ingredients__ingredient-quantity attribute is  <a href="img/TestServeSearch_1p9p10qnpaekp17148.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
     </line>
     <line>
-      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '%' into 'search_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>submit 'search_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'message_recipe.search' attribute 'innerHTML' value is 'Bad Request'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/h1 attribute should be Bad Request : Actual By.xpath: /html/body/h1 attribute is Bad Request <a href="img/TestSearchBoxSearch_nj3uu79vv3kp27837.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'message_recipe.search' attribute 'innerHTML' value is 'Bad Request'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/h1 attribute should be Bad Request : Actual By.xpath: /html/body/h1 attribute is Bad Request <a href="img/TestSearchBoxSearch_1427s29kmcgiu17149.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
     </line>
     <line>
-      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'banana_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'full_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'title.search' attribute 'innerHTML' value is 'Best Banana Bread'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1 attribute should be Best Banana Bread : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1 attribute is Best Banana Bread <a href="img/TestRecipeSearch_1652gtfthhcpr27838.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'notes.search' attribute 'innerHTML' value is 'MY PRIVATE NOTES'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[13]/div[3]/div/div[1]/h4 attribute should be MY PRIVATE NOTES : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[13]/div[3]/div/div[1]/h4 attribute is MY PRIVATE NOTES <a href="img/TestRecipeSearch_iwwlo7czxfwq27839.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'title.search' attribute 'innerHTML' value is 'Best Banana Bread'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1 attribute should be Best Banana Bread : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1 attribute is Best Banana Bread <a href="img/TestRecipeSearch_13smi60yedp5v17150.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'notes.search' attribute 'innerHTML' value is 'MY PRIVATE NOTES'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[13]/div[3]/div/div[1]/h4 attribute should be MY PRIVATE NOTES : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[13]/div[3]/div/div[1]/h4 attribute is MY PRIVATE NOTES <a href="img/TestRecipeSearch_1usgnwotazjrj17151.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
     </line>
     <line>
-      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'dropdown.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'trending.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'trending_value.search' attribute 'innerHTML' value is 'Trending'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/div[3]/div[1]/div/label attribute should be Trending : Actual By.xpath: /html/body/div[3]/div[1]/div[3]/div[1]/div/label attribute is Trending <a href="img/TestRecipeDropdownSearch_knc6l2dq0v8t27840.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'trending_value.search' attribute 'innerHTML' value is 'Trending'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/div[3]/div[1]/div/label attribute should be Trending : Actual By.xpath: /html/body/div[3]/div[1]/div[3]/div[1]/div/label attribute is Trending <a href="img/TestRecipeDropdownSearch_1i647iik9g0v017152.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
     </line>
     <line>
-      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'recipe_day_main_page_title.search' attribute 'innerHTML' value is 'Mexican Meatball Soup'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a attribute should be Mexican Meatball Soup : Actual By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a attribute is Mexican Meatball Soup <a href="img/TestRecipeDaySearch_whvqi7udvjo827841.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'share.search' is not visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a not visible : Actual By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a not visible <a href="img/TestRecipeDaySearch_1q4dsbogij1ji27842.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>mouse move on 'mouse_over_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'share.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'share_close.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe_of_day.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'recipe_day_title.search' attribute 'innerHTML' value is '70 Regional Mexican Foods to Make at Home'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1 attribute should be 70 Regional Mexican Foods to Make at Home : Actual By.xpath: /html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1 attribute is 70 Regional Mexican Foods to Make at Home <a href="img/TestRecipeDaySearch_8qp8ywqfhtt627843.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'recipe_day_main_page_title.search' attribute 'innerHTML' value is 'Mexican Meatball Soup'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a attribute should be Mexican Meatball Soup : Actual By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a attribute is Mexican Meatball Soup <a href="img/TestRecipeDaySearch_1qe3h79vwe6rw17153.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'share.search' is not visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a not visible : Actual By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a not visible <a href="img/TestRecipeDaySearch_11zwqo0twg5go17154.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>mouse move on 'mouse_over_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'recipe_day_title.search' attribute 'innerHTML' value is '70 Regional Mexican Foods to Make at Home'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1 attribute should be 70 Regional Mexican Foods to Make at Home : Actual By.xpath: /html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1 attribute is 70 Regional Mexican Foods to Make at Home <a href="img/TestRecipeDaySearch_1u70lfteg4tki17155.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="81530" started-at="2020-05-03T04:59:47Z" finished-at="2020-05-03T05:01:09Z">
+  <suite name="Default suite" duration-ms="68379" started-at="2020-05-03T05:24:57Z" finished-at="2020-05-03T05:26:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="81530" started-at="2020-05-03T04:59:47Z" finished-at="2020-05-03T05:01:09Z">
-      <class name="qaf.example.tests.SampleTest">
-        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="setupSuit" is-config="true" duration-ms="19" started-at="2020-05-02T21:59:47Z" finished-at="2020-05-02T21:59:47Z">
+    <test name="Default test" duration-ms="68379" started-at="2020-05-03T05:24:57Z" finished-at="2020-05-03T05:26:05Z">
+      <class name="qaf.example.tests.RecipeTest">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="setupSuit" is-config="true" duration-ms="19" started-at="2020-05-02T22:24:57Z" finished-at="2020-05-02T22:24:57Z">
           <params>
             <param index="0">
               <value>
@@ -36,7 +36,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuit -->
-        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="setupTest" is-config="true" duration-ms="2" started-at="2020-05-02T21:59:47Z" finished-at="2020-05-02T21:59:47Z">
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="setupTest" is-config="true" duration-ms="2" started-at="2020-05-02T22:24:57Z" finished-at="2020-05-02T22:24:57Z">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="setup" is-config="true" duration-ms="1" started-at="2020-05-02T21:59:47Z" finished-at="2020-05-02T21:59:47Z">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="setup" is-config="true" duration-ms="0" started-at="2020-05-02T22:24:57Z" finished-at="2020-05-02T22:24:57Z">
           <params>
             <param index="0">
               <value>
@@ -58,11 +58,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-05-02T21:59:47Z" finished-at="2020-05-02T21:59:47Z">
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-05-02T22:24:57Z" finished-at="2020-05-02T22:24:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void qaf.example.tests.SampleTest.testYieldSearch()]]>
+                <![CDATA[public void qaf.example.tests.RecipeTest.testYieldSearch()]]>
               </value>
             </param>
             <param index="1">
@@ -74,14 +74,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="testYieldSearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="testYieldSearch" duration-ms="24329" started-at="2020-05-02T21:59:47Z" finished-at="2020-05-02T22:00:12Z">
+        <test-method status="PASS" signature="testYieldSearch()[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="testYieldSearch" duration-ms="21625" started-at="2020-05-02T22:24:57Z" finished-at="2020-05-02T22:25:18Z">
           <reporter-output>
             <line>
-              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'banana_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'yield.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>clear 'serve_keys.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '0' into 'serve_keys.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'done_serve.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'yield_value.search' attribute 'innerHTML' value is '1'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[2]/div[1]/a/span[1] attribute should be 1 : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[2]/div[1]/a/span[1] attribute is 1 <a href="img/TestYieldSearch_1r1hvg0seiyep27834.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'yield_value.search' attribute 'innerHTML' value is '1'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[2]/div[1]/a/span[1] attribute should be 1 : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[2]/div[1]/a/span[1] attribute is 1 <a href="img/TestYieldSearch_q6660cta6wqr17146.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testYieldSearch -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-05-02T22:00:12Z" finished-at="2020-05-02T22:00:12Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-05-02T22:25:18Z" finished-at="2020-05-02T22:25:18Z">
           <params>
             <param index="0">
               <value>
@@ -90,57 +90,25 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=testYieldSearch status=SUCCESS method=SampleTest.testYieldSearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'banana_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'yield.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>clear 'serve_keys.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '0' into 'serve_keys.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'done_serve.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'yield_value.search' attribute 'innerHTML' value is '1'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[2]/div[1]/a/span[1] attribute should be 1 : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[2]/div[1]/a/span[1] attribute is 1 <a href="img/TestYieldSearch_1r1hvg0seiyep27834.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
+                <![CDATA[[TestResult name=testYieldSearch status=SUCCESS method=RecipeTest.testYieldSearch()[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'yield_value.search' attribute 'innerHTML' value is '1'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[2]/div[1]/a/span[1] attribute should be 1 : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[2]/div[1]/a/span[1] attribute is 1 <a href="img/TestYieldSearch_q6660cta6wqr17146.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-05-02T22:00:12Z" finished-at="2020-05-02T22:00:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void qaf.example.tests.SampleTest.testServeSearch()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@6236eb5f]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="testServeSearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="testServeSearch" duration-ms="18913" started-at="2020-05-02T22:00:12Z" finished-at="2020-05-02T22:00:31Z">
+        <test-method status="PASS" signature="testServeSearch()[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="testServeSearch" duration-ms="11256" started-at="2020-05-02T22:25:18Z" finished-at="2020-05-02T22:25:30Z">
           <reporter-output>
             <line>
-              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'banana_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'serve.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>clear 'serve_keys.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '-5' into 'serve_keys.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'done_serve.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'serve.search' attribute 'innerHTML' value is '-50'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[1]/div[2]/a attribute should be -50 : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[1]/div[2]/a attribute is -50 <a href="img/TestServeSearch_4u46t2dken5x27835.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'ingredient.search' attribute 'innerHTML' value is not '5'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.className: recipe-ingredients__ingredient-quantity attribute should not be 5 : Actual By.className: recipe-ingredients__ingredient-quantity attribute is  <a href="img/TestServeSearch_vdin9ydxktlo27836.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'serve.search' attribute 'innerHTML' value is '-50'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[1]/div[2]/a attribute should be -50 : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[1]/div[2]/a attribute is -50 <a href="img/TestServeSearch_80u92g02kwxi17147.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'ingredient.search' attribute 'innerHTML' value is not '5'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.className: recipe-ingredients__ingredient-quantity attribute should not be 5 : Actual By.className: recipe-ingredients__ingredient-quantity attribute is  <a href="img/TestServeSearch_1p9p10qnpaekp17148.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testServeSearch -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-02T22:00:31Z" finished-at="2020-05-02T22:00:31Z">
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-05-02T22:25:18Z" finished-at="2020-05-02T22:25:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6236eb5f]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=testServeSearch status=SUCCESS method=SampleTest.testServeSearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'banana_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'serve.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>clear 'serve_keys.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '-5' into 'serve_keys.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'done_serve.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'serve.search' attribute 'innerHTML' value is '-50'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[1]/div[2]/a attribute should be -50 : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[1]/div[2]/a attribute is -50 <a href="img/TestServeSearch_4u46t2dken5x27835.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'ingredient.search' attribute 'innerHTML' value is not '5'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.className: recipe-ingredients__ingredient-quantity attribute should not be 5 : Actual By.className: recipe-ingredients__ingredient-quantity attribute is  <a href="img/TestServeSearch_vdin9ydxktlo27836.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-05-02T22:00:31Z" finished-at="2020-05-02T22:00:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void qaf.example.tests.SampleTest.testSearchBoxSearch()]]>
+                <![CDATA[public void qaf.example.tests.RecipeTest.testServeSearch()]]>
               </value>
             </param>
             <param index="1">
@@ -152,14 +120,46 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="testSearchBoxSearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="testSearchBoxSearch" duration-ms="7028" started-at="2020-05-02T22:00:31Z" finished-at="2020-05-02T22:00:38Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-02T22:25:30Z" finished-at="2020-05-02T22:25:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6236eb5f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testServeSearch status=SUCCESS method=RecipeTest.testServeSearch()[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'serve.search' attribute 'innerHTML' value is '-50'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[1]/div[2]/a attribute should be -50 : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[11]/div[1]/div/div[1]/div[2]/a attribute is -50 <a href="img/TestServeSearch_80u92g02kwxi17147.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'ingredient.search' attribute 'innerHTML' value is not '5'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.className: recipe-ingredients__ingredient-quantity attribute should not be 5 : Actual By.className: recipe-ingredients__ingredient-quantity attribute is  <a href="img/TestServeSearch_1p9p10qnpaekp17148.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-05-02T22:25:30Z" finished-at="2020-05-02T22:25:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.RecipeTest.testSearchBoxSearch()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6236eb5f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="testSearchBoxSearch()[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="testSearchBoxSearch" duration-ms="5824" started-at="2020-05-02T22:25:30Z" finished-at="2020-05-02T22:25:35Z">
           <reporter-output>
             <line>
-              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '%' into 'search_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>submit 'search_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'message_recipe.search' attribute 'innerHTML' value is 'Bad Request'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/h1 attribute should be Bad Request : Actual By.xpath: /html/body/h1 attribute is Bad Request <a href="img/TestSearchBoxSearch_nj3uu79vv3kp27837.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'message_recipe.search' attribute 'innerHTML' value is 'Bad Request'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/h1 attribute should be Bad Request : Actual By.xpath: /html/body/h1 attribute is Bad Request <a href="img/TestSearchBoxSearch_1427s29kmcgiu17149.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testSearchBoxSearch -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-02T22:00:38Z" finished-at="2020-05-02T22:00:38Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-02T22:25:35Z" finished-at="2020-05-02T22:25:35Z">
           <params>
             <param index="0">
               <value>
@@ -168,57 +168,25 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=testSearchBoxSearch status=SUCCESS method=SampleTest.testSearchBoxSearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '%' into 'search_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>submit 'search_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'message_recipe.search' attribute 'innerHTML' value is 'Bad Request'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/h1 attribute should be Bad Request : Actual By.xpath: /html/body/h1 attribute is Bad Request <a href="img/TestSearchBoxSearch_nj3uu79vv3kp27837.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
+                <![CDATA[[TestResult name=testSearchBoxSearch status=SUCCESS method=RecipeTest.testSearchBoxSearch()[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'message_recipe.search' attribute 'innerHTML' value is 'Bad Request'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/h1 attribute should be Bad Request : Actual By.xpath: /html/body/h1 attribute is Bad Request <a href="img/TestSearchBoxSearch_1427s29kmcgiu17149.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-05-02T22:00:38Z" finished-at="2020-05-02T22:00:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void qaf.example.tests.SampleTest.testRecipeSearch()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@6236eb5f]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="testRecipeSearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="testRecipeSearch" duration-ms="10932" started-at="2020-05-02T22:00:38Z" finished-at="2020-05-02T22:00:49Z">
+        <test-method status="PASS" signature="testRecipeSearch()[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="testRecipeSearch" duration-ms="10895" started-at="2020-05-02T22:25:35Z" finished-at="2020-05-02T22:25:46Z">
           <reporter-output>
             <line>
-              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'banana_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'full_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'title.search' attribute 'innerHTML' value is 'Best Banana Bread'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1 attribute should be Best Banana Bread : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1 attribute is Best Banana Bread <a href="img/TestRecipeSearch_1652gtfthhcpr27838.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'notes.search' attribute 'innerHTML' value is 'MY PRIVATE NOTES'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[13]/div[3]/div/div[1]/h4 attribute should be MY PRIVATE NOTES : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[13]/div[3]/div/div[1]/h4 attribute is MY PRIVATE NOTES <a href="img/TestRecipeSearch_iwwlo7czxfwq27839.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'title.search' attribute 'innerHTML' value is 'Best Banana Bread'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1 attribute should be Best Banana Bread : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1 attribute is Best Banana Bread <a href="img/TestRecipeSearch_13smi60yedp5v17150.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'notes.search' attribute 'innerHTML' value is 'MY PRIVATE NOTES'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[13]/div[3]/div/div[1]/h4 attribute should be MY PRIVATE NOTES : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[13]/div[3]/div/div[1]/h4 attribute is MY PRIVATE NOTES <a href="img/TestRecipeSearch_1usgnwotazjrj17151.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testRecipeSearch -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-05-02T22:00:49Z" finished-at="2020-05-02T22:00:49Z">
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-05-02T22:25:35Z" finished-at="2020-05-02T22:25:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6236eb5f]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=testRecipeSearch status=SUCCESS method=SampleTest.testRecipeSearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'banana_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'full_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'title.search' attribute 'innerHTML' value is 'Best Banana Bread'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1 attribute should be Best Banana Bread : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1 attribute is Best Banana Bread <a href="img/TestRecipeSearch_1652gtfthhcpr27838.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'notes.search' attribute 'innerHTML' value is 'MY PRIVATE NOTES'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[13]/div[3]/div/div[1]/h4 attribute should be MY PRIVATE NOTES : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[13]/div[3]/div/div[1]/h4 attribute is MY PRIVATE NOTES <a href="img/TestRecipeSearch_iwwlo7czxfwq27839.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-05-02T22:00:49Z" finished-at="2020-05-02T22:00:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void qaf.example.tests.SampleTest.testRecipeDropdownSearch()]]>
+                <![CDATA[public void qaf.example.tests.RecipeTest.testRecipeSearch()]]>
               </value>
             </param>
             <param index="1">
@@ -230,14 +198,46 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="testRecipeDropdownSearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="testRecipeDropdownSearch" duration-ms="10011" started-at="2020-05-02T22:00:49Z" finished-at="2020-05-02T22:00:59Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-02T22:25:46Z" finished-at="2020-05-02T22:25:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6236eb5f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testRecipeSearch status=SUCCESS method=RecipeTest.testRecipeSearch()[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'title.search' attribute 'innerHTML' value is 'Best Banana Bread'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1 attribute should be Best Banana Bread : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[4]/div/h1 attribute is Best Banana Bread <a href="img/TestRecipeSearch_13smi60yedp5v17150.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'notes.search' attribute 'innerHTML' value is 'MY PRIVATE NOTES'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[13]/div[3]/div/div[1]/h4 attribute should be MY PRIVATE NOTES : Actual By.xpath: /html/body/div[2]/div/div/div[2]/div/div/div[13]/div[3]/div/div[1]/h4 attribute is MY PRIVATE NOTES <a href="img/TestRecipeSearch_1usgnwotazjrj17151.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-05-02T22:25:46Z" finished-at="2020-05-02T22:25:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qaf.example.tests.RecipeTest.testRecipeDropdownSearch()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6236eb5f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="testRecipeDropdownSearch()[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="testRecipeDropdownSearch" duration-ms="8197" started-at="2020-05-02T22:25:46Z" finished-at="2020-05-02T22:25:55Z">
           <reporter-output>
             <line>
-              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'dropdown.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'trending.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'trending_value.search' attribute 'innerHTML' value is 'Trending'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/div[3]/div[1]/div/label attribute should be Trending : Actual By.xpath: /html/body/div[3]/div[1]/div[3]/div[1]/div/label attribute is Trending <a href="img/TestRecipeDropdownSearch_knc6l2dq0v8t27840.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'trending_value.search' attribute 'innerHTML' value is 'Trending'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/div[3]/div[1]/div/label attribute should be Trending : Actual By.xpath: /html/body/div[3]/div[1]/div[3]/div[1]/div/label attribute is Trending <a href="img/TestRecipeDropdownSearch_1i647iik9g0v017152.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testRecipeDropdownSearch -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-02T22:00:59Z" finished-at="2020-05-02T22:00:59Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-05-02T22:25:55Z" finished-at="2020-05-02T22:25:55Z">
           <params>
             <param index="0">
               <value>
@@ -246,18 +246,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=testRecipeDropdownSearch status=SUCCESS method=SampleTest.testRecipeDropdownSearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'dropdown.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'trending.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'trending_value.search' attribute 'innerHTML' value is 'Trending'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/div[3]/div[1]/div/label attribute should be Trending : Actual By.xpath: /html/body/div[3]/div[1]/div[3]/div[1]/div/label attribute is Trending <a href="img/TestRecipeDropdownSearch_knc6l2dq0v8t27840.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
+                <![CDATA[[TestResult name=testRecipeDropdownSearch status=SUCCESS method=RecipeTest.testRecipeDropdownSearch()[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'trending_value.search' attribute 'innerHTML' value is 'Trending'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/div[3]/div[1]/div/label attribute should be Trending : Actual By.xpath: /html/body/div[3]/div[1]/div[3]/div[1]/div/label attribute is Trending <a href="img/TestRecipeDropdownSearch_1i647iik9g0v017152.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-05-02T22:00:59Z" finished-at="2020-05-02T22:00:59Z">
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-05-02T22:25:55Z" finished-at="2020-05-02T22:25:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void qaf.example.tests.SampleTest.testRecipeDaySearch()]]>
+                <![CDATA[public void qaf.example.tests.RecipeTest.testRecipeDaySearch()]]>
               </value>
             </param>
             <param index="1">
@@ -269,14 +269,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="testRecipeDaySearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="testRecipeDaySearch" duration-ms="10107" started-at="2020-05-02T22:00:59Z" finished-at="2020-05-02T22:01:09Z">
+        <test-method status="PASS" signature="testRecipeDaySearch()[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="testRecipeDaySearch" duration-ms="10251" started-at="2020-05-02T22:25:55Z" finished-at="2020-05-02T22:26:05Z">
           <reporter-output>
             <line>
-              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'recipe_day_main_page_title.search' attribute 'innerHTML' value is 'Mexican Meatball Soup'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a attribute should be Mexican Meatball Soup : Actual By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a attribute is Mexican Meatball Soup <a href="img/TestRecipeDaySearch_whvqi7udvjo827841.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'share.search' is not visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a not visible : Actual By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a not visible <a href="img/TestRecipeDaySearch_1q4dsbogij1ji27842.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>mouse move on 'mouse_over_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'share.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'share_close.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe_of_day.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'recipe_day_title.search' attribute 'innerHTML' value is '70 Regional Mexican Foods to Make at Home'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1 attribute should be 70 Regional Mexican Foods to Make at Home : Actual By.xpath: /html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1 attribute is 70 Regional Mexican Foods to Make at Home <a href="img/TestRecipeDaySearch_8qp8ywqfhtt627843.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'recipe_day_main_page_title.search' attribute 'innerHTML' value is 'Mexican Meatball Soup'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a attribute should be Mexican Meatball Soup : Actual By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a attribute is Mexican Meatball Soup <a href="img/TestRecipeDaySearch_1qe3h79vwe6rw17153.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'share.search' is not visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a not visible : Actual By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a not visible <a href="img/TestRecipeDaySearch_11zwqo0twg5go17154.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>mouse move on 'mouse_over_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'recipe_day_title.search' attribute 'innerHTML' value is '70 Regional Mexican Foods to Make at Home'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1 attribute should be 70 Regional Mexican Foods to Make at Home : Actual By.xpath: /html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1 attribute is 70 Regional Mexican Foods to Make at Home <a href="img/TestRecipeDaySearch_1u70lfteg4tki17155.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testRecipeDaySearch -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-02T22:01:09Z" finished-at="2020-05-02T22:01:09Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-05-02T22:26:05Z" finished-at="2020-05-02T22:26:05Z">
           <params>
             <param index="0">
               <value>
@@ -285,14 +285,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=testRecipeDaySearch status=SUCCESS method=SampleTest.testRecipeDaySearch()[pri:0, instance:qaf.example.tests.SampleTest@5158b42f] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'recipe_day_main_page_title.search' attribute 'innerHTML' value is 'Mexican Meatball Soup'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a attribute should be Mexican Meatball Soup : Actual By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a attribute is Mexican Meatball Soup <a href="img/TestRecipeDaySearch_whvqi7udvjo827841.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'share.search' is not visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a not visible : Actual By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a not visible <a href="img/TestRecipeDaySearch_1q4dsbogij1ji27842.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>mouse move on 'mouse_over_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'share.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'share_close.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe_of_day.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'recipe_day_title.search' attribute 'innerHTML' value is '70 Regional Mexican Foods to Make at Home'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1 attribute should be 70 Regional Mexican Foods to Make at Home : Actual By.xpath: /html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1 attribute is 70 Regional Mexican Foods to Make at Home <a href="img/TestRecipeDaySearch_8qp8ywqfhtt627843.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
+                <![CDATA[[TestResult name=testRecipeDaySearch status=SUCCESS method=RecipeTest.testRecipeDaySearch()[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'recipe_day_main_page_title.search' attribute 'innerHTML' value is 'Mexican Meatball Soup'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a attribute should be Mexican Meatball Soup : Actual By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a attribute is Mexican Meatball Soup <a href="img/TestRecipeDaySearch_1qe3h79vwe6rw17153.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'share.search' is not visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a not visible : Actual By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a not visible <a href="img/TestRecipeDaySearch_11zwqo0twg5go17154.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>mouse move on 'mouse_over_recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'recipe_day_title.search' attribute 'innerHTML' value is '70 Regional Mexican Foods to Make at Home'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: /html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1 attribute should be 70 Regional Mexican Foods to Make at Home : Actual By.xpath: /html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1 attribute is 70 Regional Mexican Foods to Make at Home <a href="img/TestRecipeDaySearch_1u70lfteg4tki17155.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-05-02T22:01:09Z" finished-at="2020-05-02T22:01:09Z">
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-05-02T22:26:05Z" finished-at="2020-05-02T22:26:05Z">
           <params>
             <param index="0">
               <value>
@@ -303,7 +303,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="afterTest" is-config="true" duration-ms="54" started-at="2020-05-02T22:01:09Z" finished-at="2020-05-02T22:01:09Z">
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="afterTest" is-config="true" duration-ms="116" started-at="2020-05-02T22:26:05Z" finished-at="2020-05-02T22:26:05Z">
           <params>
             <param index="0">
               <value>
@@ -314,7 +314,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.SampleTest@5158b42f]" name="afterSuit" is-config="true" duration-ms="0" started-at="2020-05-02T22:01:09Z" finished-at="2020-05-02T22:01:09Z">
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.RecipeTest@5158b42f]" name="afterSuit" is-config="true" duration-ms="0" started-at="2020-05-02T22:26:05Z" finished-at="2020-05-02T22:26:05Z">
           <params>
             <param index="0">
               <value>
@@ -325,7 +325,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuit -->
-      </class> <!-- qaf.example.tests.SampleTest -->
+      </class> <!-- qaf.example.tests.RecipeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

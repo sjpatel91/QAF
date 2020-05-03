@@ -1,0 +1,470 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://www.food.com/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 736
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a\"}\n  (Session info: chrome=81.0.4044.129)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 503 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59127}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir29812_45918796}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.129, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 3eb429cc484c7bef16a1042471ea925c\n*** Element info: {Using=xpath, value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a}",
+      "subLogs": [],
+      "duration": 503
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a, using=xpath}"
+      ],
+      "result": "id: 0.9779359319137397-1",
+      "subLogs": [],
+      "duration": 137
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.xpath: /html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: /html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a",
+        "{\"id\":\"0.9779359319137397-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1095
+    },
+    {
+      "commandName": "assertAttribute",
+      "args": [
+        "[recipe_day_main_page_title.search, innerHTML, Mexican Meatball Soup]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a, using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 399
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a, using=xpath}"
+          ],
+          "result": "[id: 0.4083317861452178-1]",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a, using=xpath}"
+          ],
+          "result": "id: 0.4083317861452178-1",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a",
+            "{\"name\":\"innerHTML\",\"id\":\"0.4083317861452178-1\"}"
+          ],
+          "result": "getElementAttribute:Mexican Meatball Soup",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a, using=xpath}"
+          ],
+          "result": "id: 0.4083317861452178-1",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a",
+            "{\"name\":\"innerHTML\",\"id\":\"0.4083317861452178-1\"}"
+          ],
+          "result": "getElementAttribute:Mexican Meatball Soup",
+          "subLogs": [],
+          "duration": 12
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertNotVisible",
+      "args": [
+        "[share.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a, using=xpath}"
+          ],
+          "result": "[id: 0.4083317861452178-2]",
+          "subLogs": [],
+          "duration": 57
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a, using=xpath}"
+          ],
+          "result": "id: 0.4083317861452178-2",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a",
+            "{\"id\":\"0.4083317861452178-2\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 17
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "mouseOver",
+      "args": [
+        "[mouse_over_recipe.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[2]/div/a/img, using=xpath}"
+          ],
+          "result": "id: 0.4083317861452178-3",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[2]/div/a/img",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "mouseMoveTo",
+          "args": [
+            "{element=0.4083317861452178-3}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 18
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=/html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a, using=xpath}"
+      ],
+      "result": "id: 0.4083317861452178-2",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a",
+        "{\"id\":\"0.4083317861452178-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 82
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=/html/body/div[3]/div[5]/div/div/div[1]/button/span[1]/i, using=xpath}"
+      ],
+      "result": "id: 0.4083317861452178-4",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.xpath: /html/body/div[3]/div[5]/div/div/div[1]/button/span[1]/i",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: /html/body/div[3]/div[5]/div/div/div[1]/button/span[1]/i",
+        "{\"id\":\"0.4083317861452178-4\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 62
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=/html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[1]/div[1], using=xpath}"
+      ],
+      "result": "id: 0.4083317861452178-5",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[1]/div[1]",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[1]/div[1]",
+        "{\"id\":\"0.4083317861452178-5\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1033
+    },
+    {
+      "commandName": "assertAttribute",
+      "args": [
+        "[recipe_day_title.search, innerHTML, 70 Regional Mexican Foods to Make at Home]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1, using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 385
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1, using=xpath}"
+          ],
+          "result": "[id: 0.22372928886483168-1]",
+          "subLogs": [],
+          "duration": 865
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1, using=xpath}"
+          ],
+          "result": "id: 0.22372928886483168-1",
+          "subLogs": [],
+          "duration": 38
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1",
+            "{\"name\":\"innerHTML\",\"id\":\"0.22372928886483168-1\"}"
+          ],
+          "result": "getElementAttribute:70 Regional Mexican Foods to Make at Home",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1, using=xpath}"
+          ],
+          "result": "id: 0.22372928886483168-1",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1",
+            "{\"name\":\"innerHTML\",\"id\":\"0.22372928886483168-1\"}"
+          ],
+          "result": "getElementAttribute:70 Regional Mexican Foods to Make at Home",
+          "subLogs": [],
+          "duration": 9
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get 'https://www.food.com/'",
+      "type": "TestStepPass",
+      "duration": 737,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "assert 'recipe_day_main_page_title.search' attribute 'innerHTML' value is 'Mexican Meatball Soup'",
+      "type": "TestStepPass",
+      "duration": 2014,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a attribute should be Mexican Meatball Soup : Actual By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[3]/div/h2/a attribute is Mexican Meatball Soup",
+          "type": "Pass",
+          "screenshot": "img/TestRecipeDaySearch_1qe3h79vwe6rw17153.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "assert 'share.search' is not visible",
+      "type": "TestStepPass",
+      "duration": 610,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a not visible : Actual By.xpath: /html/body/div[3]/div[1]/header/div[2]/div/div[1]/div/div[4]/a not visible",
+          "type": "Pass",
+          "screenshot": "img/TestRecipeDaySearch_11zwqo0twg5go17154.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "mouse move on 'mouse_over_recipe.search'",
+      "type": "TestStepPass",
+      "duration": 38,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "assert 'recipe_day_title.search' attribute 'innerHTML' value is '70 Regional Mexican Foods to Make at Home'",
+      "type": "TestStepPass",
+      "duration": 2857,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: /html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1 attribute should be 70 Regional Mexican Foods to Make at Home : Actual By.xpath: /html/body/div[3]/div[1]/div[3]/article/header/div[1]/div/div[2]/h1 attribute is 70 Regional Mexican Foods to Make at Home",
+          "type": "Pass",
+          "screenshot": "img/TestRecipeDaySearch_1u70lfteg4tki17155.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}
