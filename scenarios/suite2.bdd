@@ -3,9 +3,44 @@ SCENARIO: RecipeSearch
 META-DATA: {"description":"recipe","groups":["SMOKE"]}
 	
 	Given get 'https://www.food.com/'
-	When "I go to food.com, and select recipe section" 
-	Then 
+	When I go to food.com, and select recipe section 
+	Then I am verifying whole path for particlar recipe
 END
+
+SCENARIO: recipeDropdownSearch
+META-DATA: {"description":"recipe","groups":["SMOKE"]}
+	
+	Given get 'https://www.food.com/'
+	When I go to food.com, and select recipe section 
+	Then I am verifying dropdown for Trending recipes
+END
+
+SCENARIO: recipeDaySearch
+META-DATA: {"description":"recipe","groups":["SMOKE"]}
+	
+	Given get 'https://www.food.com/'
+	When I go to food.com, and select recipe section 
+	Then I verified recipe of day
+END
+
+SCENARIO: serveSearch
+META-DATA: {"description":"recipe","groups":["SMOKE"]}
+	
+	Given get 'https://www.food.com/'
+	When I go to food.com, and select recipe section 
+	Then I am trying to with serve size with negative numbers
+END
+
+SCENARIO: searchRecipeSearch
+META-DATA: {"description":"recipe","groups":["SMOKE"]}
+	
+	Given get 'https://www.food.com/'
+	When I go to food.com, and select recipe section 
+	Then I am verifying search box with % sign
+END
+
+
+
 
 
 

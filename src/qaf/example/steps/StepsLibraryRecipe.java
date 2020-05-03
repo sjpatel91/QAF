@@ -36,7 +36,7 @@ public class StepsLibraryRecipe extends WebDriverTestCase{
 		each_rec.getFull_recipe().click();
 		
 	}
-	@QAFTestStep(description = "dropdown for Trending recipes")
+	@QAFTestStep(description = "I am verifying dropdown for Trending recipes")
 	public static void recipeDropdownSearch() {
 		baseSection();
 		Recipe rec = new Recipe();
@@ -44,7 +44,7 @@ public class StepsLibraryRecipe extends WebDriverTestCase{
 		rec.getDropdown().click();
 		rec.getTrending().click();
 	}
-	@QAFTestStep(description = "recipe of day")
+	@QAFTestStep(description = "I verified recipe of day")
 	public static void recipeDaySearch() {
 		Recipe rec = new Recipe();
 		EachRecipe each_rec = new EachRecipe();
@@ -55,7 +55,7 @@ public class StepsLibraryRecipe extends WebDriverTestCase{
 		
 	}
 	
-	@QAFTestStep(description = "serve size")
+	@QAFTestStep(description = "I am trying to with serve size with negative numbers")
 	public static void serveSearch() {
 		Recipe rec = new Recipe();
 		EachRecipe each_rec = new EachRecipe();
@@ -67,7 +67,7 @@ public class StepsLibraryRecipe extends WebDriverTestCase{
 		each_rec.getDone_serve().click();
 		
 	}
-	@QAFTestStep(description = "search recipe")
+	@QAFTestStep(description = "I am verifying search box with % sign")
 	public static void searchRecipeSearch() {
 		Recipe rec = new Recipe();
 		EachRecipe each_rec = new EachRecipe();

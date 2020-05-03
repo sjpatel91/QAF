@@ -5,8 +5,8 @@
     <classes>
       <class name="qaf.example.tests.RecipeTest">
         <methods>
+          <include name="testRecipeDaySearch"/>
           <include name="setupTest"/>
-          <include name="testServeSearch"/>
           <include name="setupSuit"/>
           <include name="setup"/>
           <include name="afterClass"/>

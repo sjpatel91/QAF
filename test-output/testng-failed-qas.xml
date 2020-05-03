@@ -5,7 +5,7 @@
     <method-selectors>
       <method-selector>
         <script language="beanshell">
-          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("SampleTest")||testngMethod.getMethodName().equalsIgnoreCase("RecipeSearch")||testngMethod.getMethodName().equalsIgnoreCase("SampleTest")]]>
+          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("SampleTest")||testngMethod.getMethodName().equalsIgnoreCase("searchRecipeSearch")||testngMethod.getMethodName().equalsIgnoreCase("recipeDropdownSearch")||testngMethod.getMethodName().equalsIgnoreCase("serveSearch")]]>
         </script>
       </method-selector>
     </method-selectors>

@@ -1,0 +1,109 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "recipe",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 2.0,
+        "name": "RecipeSearch",
+        "reference": "scenarios/suite2.bdd",
+        "resultFileName": "RecipeSearch",
+        "sign": "scenarios.suite2.bdd.RecipeSearch()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1588479001942,
+      "duration": 15409,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "recipe",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 10.0,
+        "name": "recipeDropdownSearch",
+        "reference": "scenarios/suite2.bdd",
+        "resultFileName": "RecipeDropdownSearch",
+        "sign": "scenarios.suite2.bdd.recipeDropdownSearch()[pri:1002, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]"
+      },
+      "dependsOn": [],
+      "startTime": 1588479017381,
+      "duration": 4388,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "recipe",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 18.0,
+        "name": "recipeDaySearch",
+        "reference": "scenarios/suite2.bdd",
+        "resultFileName": "RecipeDaySearch",
+        "sign": "scenarios.suite2.bdd.recipeDaySearch()[pri:1003, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1588479021820,
+      "duration": 7802,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "recipe",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 26.0,
+        "name": "serveSearch",
+        "reference": "scenarios/suite2.bdd",
+        "resultFileName": "ServeSearch",
+        "sign": "scenarios.suite2.bdd.serveSearch()[pri:1004, instance:com.qmetry.qaf.automation.step.client.Scenario@3ec]"
+      },
+      "dependsOn": [],
+      "startTime": 1588479029677,
+      "duration": 4948,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "recipe",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 34,
+        "name": "searchRecipeSearch",
+        "reference": "scenarios/suite2.bdd",
+        "resultFileName": "SearchRecipeSearch",
+        "sign": "scenarios.suite2.bdd.searchRecipeSearch()[pri:1005, instance:com.qmetry.qaf.automation.step.client.Scenario@3ed]"
+      },
+      "dependsOn": [],
+      "startTime": 1588479034669,
+      "duration": 4013,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

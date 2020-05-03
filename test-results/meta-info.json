@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "name": "QAF Demo",
+      "dir": "test-results/Sat2May20_090943PM",
+      "startTime": 1588478983479
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/Sat2May20_090437PM",
+      "startTime": 1588478677503
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/Sat2May20_090016PM",
+      "startTime": 1588478416659
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/Sat2May20_083806PM",
+      "startTime": 1588477086907
+    },
+    {
       "name": "Default suite",
       "dir": "test-results/Sat2May20_081920PM",
       "startTime": 1588475960080
