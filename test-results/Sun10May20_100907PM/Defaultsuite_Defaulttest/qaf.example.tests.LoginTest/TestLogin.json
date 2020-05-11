@@ -1,0 +1,255 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://www.food.com/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2714
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=btn-link, using=class name}"
+      ],
+      "result": "id: 0.8398015238763814-1",
+      "subLogs": [],
+      "duration": 1239
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.className: btn-link",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.className: btn-link",
+        "{\"id\":\"0.8398015238763814-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 6493
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=Log In, using=link text}"
+      ],
+      "result": "id: 0.8398015238763814-2",
+      "subLogs": [],
+      "duration": 47
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.linkText: Log In",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.linkText: Log In",
+        "{\"id\":\"0.8398015238763814-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 224
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=username, using=name}"
+      ],
+      "result": "id: 0.8398015238763814-3",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.name: username",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: username",
+        "{\"id\":\"0.8398015238763814-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 100
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=username, using=name}"
+      ],
+      "result": "id: 0.8398015238763814-3",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.name: username",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.name: username",
+        "{\"id\":\"0.8398015238763814-3\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 51
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: username",
+        "{\"value\":[\"sjpatel91@gmail.com\"],\"id\":\"0.8398015238763814-3\"}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 184
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=password, using=name}"
+      ],
+      "result": "id: 0.8398015238763814-5",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.name: password",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: password",
+        "{\"id\":\"0.8398015238763814-5\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 107
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=password, using=name}"
+      ],
+      "result": "id: 0.8398015238763814-5",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.name: password",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.name: password",
+        "{\"id\":\"0.8398015238763814-5\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 45
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: password",
+        "{\"value\":[\"Shruti123\"],\"id\":\"0.8398015238763814-5\"}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 98
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@class='gigya-input-submit btn'], using=xpath}"
+      ],
+      "result": "id: 0.8398015238763814-6",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.xpath: //*[@class='gigya-input-submit btn']",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "submitElement",
+      "args": [
+        "By.xpath: //*[@class='gigya-input-submit btn']",
+        "{\"id\":\"0.8398015238763814-6\"}"
+      ],
+      "result": "submitElement:null",
+      "subLogs": [],
+      "duration": 183
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get 'https://www.food.com/'",
+      "type": "TestStepPass",
+      "duration": 9419,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}
