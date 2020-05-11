@@ -1,5 +1,6 @@
 package qaf.example.steps;
 
+import com.qmetry.qaf.automation.data.MetaData;
 import com.qmetry.qaf.automation.step.QAFTestStep;
 
 import static com.qmetry.qaf.automation.step.CommonStep.*;
@@ -88,7 +89,8 @@ public class StepsLibraryRecipe extends WebDriverTestCase{
 		each_rec.getDone_serve().click();
 		
 	}
-	@QAFTestStep(description = "I am verifying login")
+	@MetaData(value = "{'groups':['login']}")
+	@QAFTestStep(description = "I am verifying login with {username} and {password}")
 	public static void loginSearch(String uname, String pw) {
 		Recipe rec = new Recipe();
 		rec.getSignin().click();

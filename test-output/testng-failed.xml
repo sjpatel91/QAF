@@ -6,7 +6,7 @@
       <class name="qaf.example.tests.LoginTest">
         <methods>
           <include name="setupTest"/>
-          <include name="testLogin"/>
+          <include name="testLogin" invocation-numbers="0"/>
           <include name="setupSuit"/>
           <include name="setup"/>
           <include name="afterClass"/>

@@ -1,0 +1,264 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://www.food.com/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2428
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=btn-link, using=class name}"
+      ],
+      "result": "id: 0.09411197187503739-1",
+      "subLogs": [],
+      "duration": 492
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.className: btn-link",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.className: btn-link",
+        "{\"id\":\"0.09411197187503739-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 83
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=Log In, using=link text}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Log In\"}\n  (Session info: chrome=81.0.4044.138)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 342 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:65050}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\\Users\\sjpat\\AppData\\Local\\Temp\\scoped_dir2744_1161899427}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]\nSession ID: 90775e2721a02c1d81b1dc51ca7fa047\n*** Element info: {Using=link text, value=Log In}",
+      "subLogs": [],
+      "duration": 348
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=Log In, using=link text}"
+      ],
+      "result": "id: 0.09411197187503739-2",
+      "subLogs": [],
+      "duration": 3210
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.linkText: Log In",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.linkText: Log In",
+        "{\"id\":\"0.09411197187503739-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 644
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=username, using=name}"
+      ],
+      "result": "id: 0.09411197187503739-3",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.name: username",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: username",
+        "{\"id\":\"0.09411197187503739-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 108
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=username, using=name}"
+      ],
+      "result": "id: 0.09411197187503739-3",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.name: username",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.name: username",
+        "{\"id\":\"0.09411197187503739-3\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 40
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: username",
+        "{\"value\":[\"sjpatel91@gmail.com\"],\"id\":\"0.09411197187503739-3\"}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 1552
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=password, using=name}"
+      ],
+      "result": "id: 0.09411197187503739-4",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.name: password",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: password",
+        "{\"id\":\"0.09411197187503739-4\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 130
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=password, using=name}"
+      ],
+      "result": "id: 0.09411197187503739-4",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.name: password",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.name: password",
+        "{\"id\":\"0.09411197187503739-4\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 48
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: password",
+        "{\"value\":[\"Shruti123\"],\"id\":\"0.09411197187503739-4\"}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 82
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@class='gigya-input-submit btn'], using=xpath}"
+      ],
+      "result": "id: 0.09411197187503739-5",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.xpath: //*[@class='gigya-input-submit btn']",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "submitElement",
+      "args": [
+        "By.xpath: //*[@class='gigya-input-submit btn']",
+        "{\"id\":\"0.09411197187503739-5\"}"
+      ],
+      "result": "submitElement:null",
+      "subLogs": [],
+      "duration": 138
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get 'https://www.food.com/'",
+      "type": "TestStepPass",
+      "duration": 8906,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

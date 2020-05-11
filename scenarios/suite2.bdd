@@ -48,10 +48,10 @@ META-DATA: {"description":"yield size","groups":["SMOKE"]}
 END
 
 SCENARIO: loginSearch
-META-DATA: {"description":"login","groups":["SMOKE"]}
+META-DATA: {"description":"login","groups":["login"]}
 	
 	Given get 'https://www.food.com/' 
-	Then I am verifying login
+	Then I am verifying login with 'sjpatel91@gmail.com' and 'Shruti123'
 END
 
 
