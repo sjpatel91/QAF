@@ -52,6 +52,22 @@ public class Recipe extends WebDriverBaseTestPage<WebDriverTestPage> {
 	@FindBy(locator = "message_recipe.search")
 	private QAFWebElement message_recipe;
 	
+	// Login
+	@FindBy(locator = "signin.search")
+	private QAFWebElement signin;
+	
+	@FindBy(locator = "login.search")
+	private QAFWebElement login;
+	
+	@FindBy(locator = "uname.search")
+	private QAFWebElement uname;
+	
+	@FindBy(locator = "pw.search")
+	private QAFWebElement pw;
+	
+	@FindBy(locator = "login_button.search")
+	private QAFWebElement login_button;
+	
 	@Override
     protected void openPage(PageLocator arg0, Object... arg1) {
     }
@@ -91,6 +107,21 @@ public class Recipe extends WebDriverBaseTestPage<WebDriverTestPage> {
     public QAFWebElement getMessage_recipe() {
 		return message_recipe;
 	}
-    
+    // Login Getter methods
+    public QAFWebElement getSignin() {
+		return signin;
+	}
+    public QAFWebElement getLogin() {
+		return login;
+	}
+    public QAFWebElement getUname() {
+		return uname;
+	}
+    public QAFWebElement getPw() {
+		return pw;
+	}
+    public QAFWebElement getLogin_button() {
+		return login_button;
+	}
     
 }

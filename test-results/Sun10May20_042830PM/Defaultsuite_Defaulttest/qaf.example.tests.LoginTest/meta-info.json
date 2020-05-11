@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testLogin",
+        "resultFileName": "TestLogin",
+        "sign": "LoginTest.testLogin()[pri:0, instance:qaf.example.tests.LoginTest@5158b42f]"
+      },
+      "dependsOn": [],
+      "startTime": 1589153310319,
+      "duration": 20123,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "dataFile": "resources/logindata.json",
+        "filter": "",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "testLogin",
+        "resultFileName": "TestLogin",
+        "sheetName": "",
+        "sign": "LoginTest.testLogin()[pri:0, instance:qaf.example.tests.LoginTest@399f45b1]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1589154819339,
+      "duration": 16560,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

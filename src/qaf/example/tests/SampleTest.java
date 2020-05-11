@@ -67,7 +67,7 @@ public class SampleTest extends WebDriverTestCase {
 	}
 	@Test
 	public void testYieldSearch() {
-		StepsLibraryRecipe s = new StepsLibraryRecipe();
+		//StepsLibraryRecipe s = new StepsLibraryRecipe();
 		get("https://www.food.com/");
 		yieldSearch();
 		assertAttribute("yield_value.search", "innerHTML", "1");	

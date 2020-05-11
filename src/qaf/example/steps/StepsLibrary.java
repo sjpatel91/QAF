@@ -7,6 +7,7 @@ import static com.qmetry.qaf.automation.step.CommonStep.sendKeys;
 import static com.qmetry.qaf.automation.step.CommonStep.submit;
 
 import com.qmetry.qaf.automation.step.QAFTestStep;
+import com.qmetry.qaf.automation.testng.dataprovider.QAFDataProvider;
 
 import food.Page.EachRecipe;
 import food.Page.Recipe;
@@ -51,7 +52,7 @@ public class StepsLibrary {
 		baseSection();
 		click("banana_recipe.search");
 		click("serve.search");
-		clear("serve_keys.search");
+//		clear("serve_keys.search");
 		sendKeys("-5", "serve_keys.search");
 		click("done_serve.search");
 	}
@@ -61,16 +62,18 @@ public class StepsLibrary {
 		sendKeys("%", "search_recipe.search");
 		submit("search_recipe.search");
 	}
-	
+	@QAFDataProvider(dataFile = "resources/logindata.json")
 	@QAFTestStep(description = "I am trying to verify yield size with 0")
 	public static void yieldSearch() {
 		baseSection();
 		click("banana_recipe.search");
 		click("yield.search");
-		clear("serve_keys.search");
+		//clear("serve_keys.search");
 		sendKeys("0", "serve_keys.search");
 		click("done_serve.search");
 		
 	}
+	
+	
 	
 }

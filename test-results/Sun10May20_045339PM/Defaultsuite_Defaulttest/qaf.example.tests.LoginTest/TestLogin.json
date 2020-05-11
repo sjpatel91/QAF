@@ -1,0 +1,255 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://www.food.com/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2683
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=btn-link, using=class name}"
+      ],
+      "result": "id: 0.8589433161201883-1",
+      "subLogs": [],
+      "duration": 675
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.className: btn-link",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.className: btn-link",
+        "{\"id\":\"0.8589433161201883-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 318
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=/html/body/div[2]/div[2]/div[2]/div/div/label/a, using=xpath}"
+      ],
+      "result": "id: 0.8589433161201883-2",
+      "subLogs": [],
+      "duration": 2495
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.xpath: /html/body/div[2]/div[2]/div[2]/div/div/label/a",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: /html/body/div[2]/div[2]/div[2]/div/div/label/a",
+        "{\"id\":\"0.8589433161201883-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 321
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=username, using=name}"
+      ],
+      "result": "id: 0.8589433161201883-3",
+      "subLogs": [],
+      "duration": 61
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.name: username",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: username",
+        "{\"id\":\"0.8589433161201883-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 133
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=username, using=name}"
+      ],
+      "result": "id: 0.8589433161201883-3",
+      "subLogs": [],
+      "duration": 53
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.name: username",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.name: username",
+        "{\"id\":\"0.8589433161201883-3\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 2651
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: username",
+        "{\"value\":[\"sjpatel91@gmail.com\"],\"id\":\"0.8589433161201883-3\"}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 330
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=password, using=name}"
+      ],
+      "result": "id: 0.8589433161201883-4",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.name: password",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: password",
+        "{\"id\":\"0.8589433161201883-4\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 88
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=password, using=name}"
+      ],
+      "result": "id: 0.8589433161201883-4",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.name: password",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.name: password",
+        "{\"id\":\"0.8589433161201883-4\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: password",
+        "{\"value\":[\"Shruti123\"],\"id\":\"0.8589433161201883-4\"}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 146
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=/html/body/div[2]/div[2]/div[2]/div/form/div[2]/div[4]/div/input, using=xpath}"
+      ],
+      "result": "id: 0.8589433161201883-5",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.xpath: /html/body/div[2]/div[2]/div[2]/div/form/div[2]/div[4]/div/input",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "submitElement",
+      "args": [
+        "By.xpath: /html/body/div[2]/div[2]/div[2]/div/form/div[2]/div[4]/div/input",
+        "{\"id\":\"0.8589433161201883-5\"}"
+      ],
+      "result": "submitElement:null",
+      "subLogs": [],
+      "duration": 151
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get 'https://www.food.com/'",
+      "type": "TestStepPass",
+      "duration": 8895,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

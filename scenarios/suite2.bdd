@@ -47,6 +47,13 @@ META-DATA: {"description":"yield size","groups":["SMOKE"]}
 	Then I am trying to verify yield size with 0
 END
 
+SCENARIO: loginSearch
+META-DATA: {"description":"login","groups":["SMOKE"]}
+	
+	Given get 'https://www.food.com/' 
+	Then I am verifying login
+END
+
 
 
 

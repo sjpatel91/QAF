@@ -1,0 +1,78 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://www.food.com/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 3677
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[signin.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=btn-link, using=class name}"
+          ],
+          "result": "id: 0.20240558538268916-1",
+          "subLogs": [],
+          "duration": 183
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.className: btn-link",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.className: btn-link",
+            "{\"id\":\"0.20240558538268916-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2301
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get 'https://www.food.com/'",
+      "type": "TestStepPass",
+      "duration": 10350,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'signin.search'",
+      "type": "TestStepPass",
+      "duration": 2524,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testLogin",
+        "resultFileName": "TestLogin",
+        "sign": "LoginTest.testLogin(com.sun.javafx.collections.MappingChange$Map)[pri:0, instance:qaf.example.tests.LoginTest@1189dd52]"
+      },
+      "dependsOn": [],
+      "startTime": 1589150145053,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

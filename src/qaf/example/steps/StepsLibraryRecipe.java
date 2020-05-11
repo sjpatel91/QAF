@@ -62,7 +62,7 @@ public class StepsLibraryRecipe extends WebDriverTestCase{
 		baseSection();
 		rec.getBananaRecipe().click();
 		each_rec.getServe().click();
-		each_rec.getServe_keys().clear();
+//		each_rec.getServe_keys().clear();
 		each_rec.getServe_keys().sendKeys("-5");
 		each_rec.getDone_serve().click();
 		
@@ -83,9 +83,21 @@ public class StepsLibraryRecipe extends WebDriverTestCase{
 		baseSection();
 		rec.getBananaRecipe().click();
 		each_rec.getYield().click();
-		each_rec.getServe_keys().clear();
+//		each_rec.getServe_keys().clear();
 		each_rec.getServe_keys().sendKeys("0");
 		each_rec.getDone_serve().click();
+		
+	}
+	@QAFTestStep(description = "I am verifying login")
+	public static void loginSearch(String uname, String pw) {
+		Recipe rec = new Recipe();
+		rec.getSignin().click();
+		rec.getLogin().click();
+		rec.getUname().click();
+		rec.getUname().sendKeys(uname);
+		rec.getPw().click();
+		rec.getPw().sendKeys(pw);
+		rec.getLogin_button().submit();
 		
 	}
 	

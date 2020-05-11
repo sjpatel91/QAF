@@ -3,10 +3,10 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="qaf.example.tests.RecipeTest">
+      <class name="qaf.example.tests.LoginTest">
         <methods>
-          <include name="testSearchBoxSearch"/>
           <include name="setupTest"/>
+          <include name="testLogin"/>
           <include name="setupSuit"/>
           <include name="setup"/>
           <include name="afterClass"/>
@@ -15,7 +15,7 @@
           <include name="afterMethod"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- qaf.example.tests.RecipeTest -->
+      </class> <!-- qaf.example.tests.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
