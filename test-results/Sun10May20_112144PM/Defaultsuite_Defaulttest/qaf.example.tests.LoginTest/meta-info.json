@@ -1,0 +1,34 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "Username": "sjpatel91@gmail.com",
+          "password": "Shruti123",
+          "isvalid": "true",
+          "__index": 1
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/logintestdata.json",
+        "description": "json file as data provider ",
+        "filter": "",
+        "groups": [],
+        "hasHeaderRow": false,
+        "key": "",
+        "name": "testLogin",
+        "resultFileName": "TestLogin",
+        "sheetName": "",
+        "sign": "LoginTest.testLogin(java.util.Map)[pri:0, instance:qaf.example.tests.LoginTest@1189dd52]",
+        "sqlQuery": ""
+      },
+      "dependsOn": [],
+      "startTime": 1589178104780,
+      "duration": 15867,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

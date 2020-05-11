@@ -1,0 +1,273 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://www.food.com/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2637
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=btn-link, using=class name}"
+      ],
+      "result": "id: 0.6902500963435185-1",
+      "subLogs": [],
+      "duration": 531
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.className: btn-link",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.className: btn-link",
+        "{\"id\":\"0.6902500963435185-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 703
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=Log In, using=link text}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 463
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=Log In, using=link text}"
+      ],
+      "result": "[id: 0.6902500963435185-2]",
+      "subLogs": [],
+      "duration": 921
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=Log In, using=link text}"
+      ],
+      "result": "id: 0.6902500963435185-2",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.linkText: Log In",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.linkText: Log In",
+        "{\"id\":\"0.6902500963435185-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 262
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=username, using=name}"
+      ],
+      "result": "id: 0.6902500963435185-3",
+      "subLogs": [],
+      "duration": 172
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.name: username",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: username",
+        "{\"id\":\"0.6902500963435185-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 2163
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=username, using=name}"
+      ],
+      "result": "id: 0.6902500963435185-3",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.name: username",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.name: username",
+        "{\"id\":\"0.6902500963435185-3\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 61
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: username",
+        "{\"value\":[\"sjpatel91@gmail.com\"],\"id\":\"0.6902500963435185-3\"}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 198
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=password, using=name}"
+      ],
+      "result": "id: 0.6902500963435185-5",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.name: password",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: password",
+        "{\"id\":\"0.6902500963435185-5\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 107
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=password, using=name}"
+      ],
+      "result": "id: 0.6902500963435185-5",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.name: password",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.name: password",
+        "{\"id\":\"0.6902500963435185-5\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 39
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.name: password",
+        "{\"value\":[\"Shruti123\"],\"id\":\"0.6902500963435185-5\"}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 72
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@class='gigya-input-submit btn'], using=xpath}"
+      ],
+      "result": "id: 0.6902500963435185-6",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.xpath: //*[@class='gigya-input-submit btn']",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "submitElement",
+      "args": [
+        "By.xpath: //*[@class='gigya-input-submit btn']",
+        "{\"id\":\"0.6902500963435185-6\"}"
+      ],
+      "result": "submitElement:null",
+      "subLogs": [],
+      "duration": 104
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get 'https://www.food.com/'",
+      "type": "TestStepPass",
+      "duration": 8857,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

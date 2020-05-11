@@ -94,6 +94,7 @@ public class StepsLibraryRecipe extends WebDriverTestCase{
 	public static void loginSearch(String uname, String pw) {
 		Recipe rec = new Recipe();
 		rec.getSignin().click();
+		rec.getLogin().waitForPresent();
 		rec.getLogin().click();
 		rec.getUname().click();
 		rec.getUname().sendKeys(uname);
