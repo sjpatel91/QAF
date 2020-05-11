@@ -5,12 +5,12 @@
       <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get 'https://www.food.com/'</div></div>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14334" started-at="2020-05-11T05:35:20Z" finished-at="2020-05-11T05:35:34Z">
+  <suite name="Default suite" duration-ms="16332" started-at="2020-05-11T05:58:57Z" finished-at="2020-05-11T05:59:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14334" started-at="2020-05-11T05:35:20Z" finished-at="2020-05-11T05:35:34Z">
+    <test name="Default test" duration-ms="16332" started-at="2020-05-11T05:58:57Z" finished-at="2020-05-11T05:59:14Z">
       <class name="qaf.example.tests.LoginTest">
-        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.LoginTest@1189dd52]" name="setupSuit" is-config="true" duration-ms="18" started-at="2020-05-10T22:35:20Z" finished-at="2020-05-10T22:35:20Z">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.LoginTest@1189dd52]" name="setupSuit" is-config="true" duration-ms="19" started-at="2020-05-10T22:58:57Z" finished-at="2020-05-10T22:58:57Z">
           <params>
             <param index="0">
               <value>
@@ -21,7 +21,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuit -->
-        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.LoginTest@1189dd52]" name="setupTest" is-config="true" duration-ms="2" started-at="2020-05-10T22:35:20Z" finished-at="2020-05-10T22:35:20Z">
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.LoginTest@1189dd52]" name="setupTest" is-config="true" duration-ms="1" started-at="2020-05-10T22:58:57Z" finished-at="2020-05-10T22:58:57Z">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.LoginTest@1189dd52]" name="setup" is-config="true" duration-ms="1" started-at="2020-05-10T22:35:20Z" finished-at="2020-05-10T22:35:20Z">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.LoginTest@1189dd52]" name="setup" is-config="true" duration-ms="1" started-at="2020-05-10T22:58:57Z" finished-at="2020-05-10T22:58:57Z">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.LoginTest@1189dd52]" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-05-10T22:35:20Z" finished-at="2020-05-10T22:35:20Z">
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.LoginTest@1189dd52]" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-05-10T22:58:57Z" finished-at="2020-05-10T22:58:57Z">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="testLogin(java.util.Map)[pri:0, instance:qaf.example.tests.LoginTest@1189dd52]" name="testLogin" duration-ms="14031" started-at="2020-05-10T22:35:20Z" description="json file as data provider " finished-at="2020-05-10T22:35:34Z">
+        <test-method status="PASS" signature="testLogin(java.util.Map)[pri:0, instance:qaf.example.tests.LoginTest@1189dd52]" name="testLogin" duration-ms="15888" started-at="2020-05-10T22:58:57Z" description="json file as data provider " finished-at="2020-05-10T22:59:13Z">
           <params>
             <param index="0">
               <value>
@@ -73,7 +73,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.LoginTest@1189dd52]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-10T22:35:34Z" finished-at="2020-05-10T22:35:34Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.LoginTest@1189dd52]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-05-10T22:59:13Z" finished-at="2020-05-10T22:59:13Z">
           <params>
             <param index="0">
               <value>
@@ -89,7 +89,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.LoginTest@1189dd52]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-05-10T22:35:34Z" finished-at="2020-05-10T22:35:34Z">
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.LoginTest@1189dd52]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-05-10T22:59:13Z" finished-at="2020-05-10T22:59:13Z">
           <params>
             <param index="0">
               <value>
@@ -100,7 +100,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.LoginTest@1189dd52]" name="afterTest" is-config="true" duration-ms="218" started-at="2020-05-10T22:35:34Z" finished-at="2020-05-10T22:35:34Z">
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.LoginTest@1189dd52]" name="afterTest" is-config="true" duration-ms="327" started-at="2020-05-10T22:59:13Z" finished-at="2020-05-10T22:59:14Z">
           <params>
             <param index="0">
               <value>
@@ -111,7 +111,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.LoginTest@1189dd52]" name="afterSuit" is-config="true" duration-ms="1" started-at="2020-05-10T22:35:34Z" finished-at="2020-05-10T22:35:34Z">
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.LoginTest@1189dd52]" name="afterSuit" is-config="true" duration-ms="0" started-at="2020-05-10T22:59:14Z" finished-at="2020-05-10T22:59:14Z">
           <params>
             <param index="0">
               <value>

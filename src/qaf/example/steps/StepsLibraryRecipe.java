@@ -90,7 +90,7 @@ public class StepsLibraryRecipe extends WebDriverTestCase{
 		
 	}
 	@MetaData(value = "{'groups':['login']}")
-	@QAFTestStep(description = "I am verifying login with {username} and {password}")
+	@QAFTestStep(description = "I am verifying login with {username} and {password}", threshold = 20)
 	public static void loginSearch(String uname, String pw) {
 		Recipe rec = new Recipe();
 		rec.getSignin().click();

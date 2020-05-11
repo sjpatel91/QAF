@@ -2,6 +2,11 @@
   "reports": [
     {
       "name": "Default suite",
+      "dir": "test-results/Sun10May20_105857PM",
+      "startTime": 1589176737780
+    },
+    {
+      "name": "Default suite",
       "dir": "test-results/Sun10May20_103520PM",
       "startTime": 1589175320428
     },
