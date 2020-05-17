@@ -1,0 +1,31 @@
+{
+  "total": 0,
+  "pass": 0,
+  "fail": 0,
+  "skip": 0,
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0-RC3",
+      "qaf-Version": "3.0",
+      "qaf-Build-Time": "13-Apr-2020 05:11:28"
+    },
+    "run-parameters": {
+      "baseurl": "http://dummy.restapiexample.com/api/v1",
+      "resources": "resources"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_211",
+      "os.arch": "amd64",
+      "host": "DESKTOP-BJ7Q9MK",
+      "os.name": "Windows 10",
+      "user.name": "sjpat",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1589686386846,
+  "endTime": 1589686386861
+}

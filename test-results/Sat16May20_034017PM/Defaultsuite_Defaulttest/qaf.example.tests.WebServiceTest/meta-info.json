@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "getEnmployees",
+        "resultFileName": "GetEnmployees",
+        "sign": "WebServiceTest.getEnmployees()[pri:0, instance:qaf.example.tests.WebServiceTest@145f66e3]"
+      },
+      "dependsOn": [],
+      "startTime": 1589668817930,
+      "duration": 1140,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

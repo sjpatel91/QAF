@@ -1,0 +1,177 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://www.food.com/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.food.com/}"
+          ],
+          "result": "{stacktrace=Backtrace:\n\tOrdinal0 [0x00BB5F73+2449267]\n\tOrdinal0 [0x00AE8361+1606497]\n\tOrdinal0 [0x009DF812+522258]\n\tOrdinal0 [0x00971949+72009]\n\tOrdinal0 [0x00989F27+171815]\n\tOrdinal0 [0x009889FA+166394]\n\tOrdinal0 [0x009885D4+165332]\n\tOrdinal0 [0x0096232E+9006]\n\tOrdinal0 [0x00962766+10086]\n\tOrdinal0 [0x00962E30+11824]\n\tOrdinal0 [0x00AFD8D7+1693911]\n\tGetHandleVerifier [0x00C54036+522726]\n\tGetHandleVerifier [0x00C53D74+522020]\n\tGetHandleVerifier [0x00C69187+609079]\n\tGetHandleVerifier [0x00C548A6+524886]\n\tOrdinal0 [0x00AF5CBC+1662140]\n\tOrdinal0 [0x009621E2+8674]\n\tOrdinal0 [0x00961F26+7974]\n\tGetHandleVerifier [0x00E6357C+2682668]\n\tBaseThreadInitThunk [0x75046359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77337C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77337BF4+180]\n, error=invalid session id, message=invalid session id}",
+          "subLogs": [],
+          "duration": 3
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[recipe.search]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a, using=xpath}"
+          ],
+          "result": "{stacktrace=Backtrace:\n\tOrdinal0 [0x00BB5F73+2449267]\n\tOrdinal0 [0x00AE8361+1606497]\n\tOrdinal0 [0x009DF812+522258]\n\tOrdinal0 [0x00971949+72009]\n\tOrdinal0 [0x00989F27+171815]\n\tOrdinal0 [0x009889FA+166394]\n\tOrdinal0 [0x009885D4+165332]\n\tOrdinal0 [0x0096232E+9006]\n\tOrdinal0 [0x00962766+10086]\n\tOrdinal0 [0x00962E30+11824]\n\tOrdinal0 [0x00AFD8D7+1693911]\n\tGetHandleVerifier [0x00C54036+522726]\n\tGetHandleVerifier [0x00C53D74+522020]\n\tGetHandleVerifier [0x00C69187+609079]\n\tGetHandleVerifier [0x00C548A6+524886]\n\tOrdinal0 [0x00AF5CBC+1662140]\n\tOrdinal0 [0x009621E2+8674]\n\tOrdinal0 [0x00961F26+7974]\n\tGetHandleVerifier [0x00E6357C+2682668]\n\tBaseThreadInitThunk [0x75046359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77337C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77337BF4+180]\n, error=invalid session id, message=invalid session id}",
+          "subLogs": [],
+          "duration": 4
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a, using=xpath}"
+          ],
+          "result": "{stacktrace=Backtrace:\n\tOrdinal0 [0x00BB5F73+2449267]\n\tOrdinal0 [0x00AE8361+1606497]\n\tOrdinal0 [0x009DF812+522258]\n\tOrdinal0 [0x00971949+72009]\n\tOrdinal0 [0x00989F27+171815]\n\tOrdinal0 [0x009889FA+166394]\n\tOrdinal0 [0x009885D4+165332]\n\tOrdinal0 [0x0096232E+9006]\n\tOrdinal0 [0x00962766+10086]\n\tOrdinal0 [0x00962E30+11824]\n\tOrdinal0 [0x00AFD8D7+1693911]\n\tGetHandleVerifier [0x00C54036+522726]\n\tGetHandleVerifier [0x00C53D74+522020]\n\tGetHandleVerifier [0x00C69187+609079]\n\tGetHandleVerifier [0x00C548A6+524886]\n\tOrdinal0 [0x00AF5CBC+1662140]\n\tOrdinal0 [0x009621E2+8674]\n\tOrdinal0 [0x00961F26+7974]\n\tGetHandleVerifier [0x00E6357C+2682668]\n\tBaseThreadInitThunk [0x75046359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77337C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77337BF4+180]\n, error=invalid session id, message=invalid session id}",
+          "subLogs": [],
+          "duration": 4
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a, using=xpath}"
+          ],
+          "result": "{stacktrace=Backtrace:\n\tOrdinal0 [0x00BB5F73+2449267]\n\tOrdinal0 [0x00AE8361+1606497]\n\tOrdinal0 [0x009DF812+522258]\n\tOrdinal0 [0x00971949+72009]\n\tOrdinal0 [0x00989F27+171815]\n\tOrdinal0 [0x009889FA+166394]\n\tOrdinal0 [0x009885D4+165332]\n\tOrdinal0 [0x0096232E+9006]\n\tOrdinal0 [0x00962766+10086]\n\tOrdinal0 [0x00962E30+11824]\n\tOrdinal0 [0x00AFD8D7+1693911]\n\tGetHandleVerifier [0x00C54036+522726]\n\tGetHandleVerifier [0x00C53D74+522020]\n\tGetHandleVerifier [0x00C69187+609079]\n\tGetHandleVerifier [0x00C548A6+524886]\n\tOrdinal0 [0x00AF5CBC+1662140]\n\tOrdinal0 [0x009621E2+8674]\n\tOrdinal0 [0x00961F26+7974]\n\tGetHandleVerifier [0x00E6357C+2682668]\n\tBaseThreadInitThunk [0x75046359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77337C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77337BF4+180]\n, error=invalid session id, message=invalid session id}",
+          "subLogs": [],
+          "duration": 7
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a, using=xpath}"
+          ],
+          "result": "{stacktrace=Backtrace:\n\tOrdinal0 [0x00BB5F73+2449267]\n\tOrdinal0 [0x00AE8361+1606497]\n\tOrdinal0 [0x009DF812+522258]\n\tOrdinal0 [0x00971949+72009]\n\tOrdinal0 [0x00989F27+171815]\n\tOrdinal0 [0x009889FA+166394]\n\tOrdinal0 [0x009885D4+165332]\n\tOrdinal0 [0x0096232E+9006]\n\tOrdinal0 [0x00962766+10086]\n\tOrdinal0 [0x00962E30+11824]\n\tOrdinal0 [0x00AFD8D7+1693911]\n\tGetHandleVerifier [0x00C54036+522726]\n\tGetHandleVerifier [0x00C53D74+522020]\n\tGetHandleVerifier [0x00C69187+609079]\n\tGetHandleVerifier [0x00C548A6+524886]\n\tOrdinal0 [0x00AF5CBC+1662140]\n\tOrdinal0 [0x009621E2+8674]\n\tOrdinal0 [0x00961F26+7974]\n\tGetHandleVerifier [0x00E6357C+2682668]\n\tBaseThreadInitThunk [0x75046359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77337C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77337BF4+180]\n, error=invalid session id, message=invalid session id}",
+          "subLogs": [],
+          "duration": 5
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a, using=xpath}"
+          ],
+          "result": "{stacktrace=Backtrace:\n\tOrdinal0 [0x00BB5F73+2449267]\n\tOrdinal0 [0x00AE8361+1606497]\n\tOrdinal0 [0x009DF812+522258]\n\tOrdinal0 [0x00971949+72009]\n\tOrdinal0 [0x00989F27+171815]\n\tOrdinal0 [0x009889FA+166394]\n\tOrdinal0 [0x009885D4+165332]\n\tOrdinal0 [0x0096232E+9006]\n\tOrdinal0 [0x00962766+10086]\n\tOrdinal0 [0x00962E30+11824]\n\tOrdinal0 [0x00AFD8D7+1693911]\n\tGetHandleVerifier [0x00C54036+522726]\n\tGetHandleVerifier [0x00C53D74+522020]\n\tGetHandleVerifier [0x00C69187+609079]\n\tGetHandleVerifier [0x00C548A6+524886]\n\tOrdinal0 [0x00AF5CBC+1662140]\n\tOrdinal0 [0x009621E2+8674]\n\tOrdinal0 [0x00961F26+7974]\n\tGetHandleVerifier [0x00E6357C+2682668]\n\tBaseThreadInitThunk [0x75046359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77337C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77337BF4+180]\n, error=invalid session id, message=invalid session id}",
+          "subLogs": [],
+          "duration": 6
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a, using=xpath}"
+          ],
+          "result": "{stacktrace=Backtrace:\n\tOrdinal0 [0x00BB5F73+2449267]\n\tOrdinal0 [0x00AE8361+1606497]\n\tOrdinal0 [0x009DF812+522258]\n\tOrdinal0 [0x00971949+72009]\n\tOrdinal0 [0x00989F27+171815]\n\tOrdinal0 [0x009889FA+166394]\n\tOrdinal0 [0x009885D4+165332]\n\tOrdinal0 [0x0096232E+9006]\n\tOrdinal0 [0x00962766+10086]\n\tOrdinal0 [0x00962E30+11824]\n\tOrdinal0 [0x00AFD8D7+1693911]\n\tGetHandleVerifier [0x00C54036+522726]\n\tGetHandleVerifier [0x00C53D74+522020]\n\tGetHandleVerifier [0x00C69187+609079]\n\tGetHandleVerifier [0x00C548A6+524886]\n\tOrdinal0 [0x00AF5CBC+1662140]\n\tOrdinal0 [0x009621E2+8674]\n\tOrdinal0 [0x00961F26+7974]\n\tGetHandleVerifier [0x00E6357C+2682668]\n\tBaseThreadInitThunk [0x75046359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77337C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77337BF4+180]\n, error=invalid session id, message=invalid session id}",
+          "subLogs": [],
+          "duration": 6
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a, using=xpath}"
+          ],
+          "result": "{stacktrace=Backtrace:\n\tOrdinal0 [0x00BB5F73+2449267]\n\tOrdinal0 [0x00AE8361+1606497]\n\tOrdinal0 [0x009DF812+522258]\n\tOrdinal0 [0x00971949+72009]\n\tOrdinal0 [0x00989F27+171815]\n\tOrdinal0 [0x009889FA+166394]\n\tOrdinal0 [0x009885D4+165332]\n\tOrdinal0 [0x0096232E+9006]\n\tOrdinal0 [0x00962766+10086]\n\tOrdinal0 [0x00962E30+11824]\n\tOrdinal0 [0x00AFD8D7+1693911]\n\tGetHandleVerifier [0x00C54036+522726]\n\tGetHandleVerifier [0x00C53D74+522020]\n\tGetHandleVerifier [0x00C69187+609079]\n\tGetHandleVerifier [0x00C548A6+524886]\n\tOrdinal0 [0x00AF5CBC+1662140]\n\tOrdinal0 [0x009621E2+8674]\n\tOrdinal0 [0x00961F26+7974]\n\tGetHandleVerifier [0x00E6357C+2682668]\n\tBaseThreadInitThunk [0x75046359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77337C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77337BF4+180]\n, error=invalid session id, message=invalid session id}",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a, using=xpath}"
+          ],
+          "result": "{stacktrace=Backtrace:\n\tOrdinal0 [0x00BB5F73+2449267]\n\tOrdinal0 [0x00AE8361+1606497]\n\tOrdinal0 [0x009DF812+522258]\n\tOrdinal0 [0x00971949+72009]\n\tOrdinal0 [0x00989F27+171815]\n\tOrdinal0 [0x009889FA+166394]\n\tOrdinal0 [0x009885D4+165332]\n\tOrdinal0 [0x0096232E+9006]\n\tOrdinal0 [0x00962766+10086]\n\tOrdinal0 [0x00962E30+11824]\n\tOrdinal0 [0x00AFD8D7+1693911]\n\tGetHandleVerifier [0x00C54036+522726]\n\tGetHandleVerifier [0x00C53D74+522020]\n\tGetHandleVerifier [0x00C69187+609079]\n\tGetHandleVerifier [0x00C548A6+524886]\n\tOrdinal0 [0x00AF5CBC+1662140]\n\tOrdinal0 [0x009621E2+8674]\n\tOrdinal0 [0x00961F26+7974]\n\tGetHandleVerifier [0x00E6357C+2682668]\n\tBaseThreadInitThunk [0x75046359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77337C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77337BF4+180]\n, error=invalid session id, message=invalid session id}",
+          "subLogs": [],
+          "duration": 7
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a, using=xpath}"
+          ],
+          "result": "{stacktrace=Backtrace:\n\tOrdinal0 [0x00BB5F73+2449267]\n\tOrdinal0 [0x00AE8361+1606497]\n\tOrdinal0 [0x009DF812+522258]\n\tOrdinal0 [0x00971949+72009]\n\tOrdinal0 [0x00989F27+171815]\n\tOrdinal0 [0x009889FA+166394]\n\tOrdinal0 [0x009885D4+165332]\n\tOrdinal0 [0x0096232E+9006]\n\tOrdinal0 [0x00962766+10086]\n\tOrdinal0 [0x00962E30+11824]\n\tOrdinal0 [0x00AFD8D7+1693911]\n\tGetHandleVerifier [0x00C54036+522726]\n\tGetHandleVerifier [0x00C53D74+522020]\n\tGetHandleVerifier [0x00C69187+609079]\n\tGetHandleVerifier [0x00C548A6+524886]\n\tOrdinal0 [0x00AF5CBC+1662140]\n\tOrdinal0 [0x009621E2+8674]\n\tOrdinal0 [0x00961F26+7974]\n\tGetHandleVerifier [0x00E6357C+2682668]\n\tBaseThreadInitThunk [0x75046359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77337C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77337BF4+180]\n, error=invalid session id, message=invalid session id}",
+          "subLogs": [],
+          "duration": 5
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a, using=xpath}"
+          ],
+          "result": "{stacktrace=Backtrace:\n\tOrdinal0 [0x00BB5F73+2449267]\n\tOrdinal0 [0x00AE8361+1606497]\n\tOrdinal0 [0x009DF812+522258]\n\tOrdinal0 [0x00971949+72009]\n\tOrdinal0 [0x00989F27+171815]\n\tOrdinal0 [0x009889FA+166394]\n\tOrdinal0 [0x009885D4+165332]\n\tOrdinal0 [0x0096232E+9006]\n\tOrdinal0 [0x00962766+10086]\n\tOrdinal0 [0x00962E30+11824]\n\tOrdinal0 [0x00AFD8D7+1693911]\n\tGetHandleVerifier [0x00C54036+522726]\n\tGetHandleVerifier [0x00C53D74+522020]\n\tGetHandleVerifier [0x00C69187+609079]\n\tGetHandleVerifier [0x00C548A6+524886]\n\tOrdinal0 [0x00AF5CBC+1662140]\n\tOrdinal0 [0x009621E2+8674]\n\tOrdinal0 [0x00961F26+7974]\n\tGetHandleVerifier [0x00E6357C+2682668]\n\tBaseThreadInitThunk [0x75046359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77337C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77337BF4+180]\n, error=invalid session id, message=invalid session id}",
+          "subLogs": [],
+          "duration": 7
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a, using=xpath}"
+          ],
+          "result": "{stacktrace=Backtrace:\n\tOrdinal0 [0x00BB5F73+2449267]\n\tOrdinal0 [0x00AE8361+1606497]\n\tOrdinal0 [0x009DF812+522258]\n\tOrdinal0 [0x00971949+72009]\n\tOrdinal0 [0x00989F27+171815]\n\tOrdinal0 [0x009889FA+166394]\n\tOrdinal0 [0x009885D4+165332]\n\tOrdinal0 [0x0096232E+9006]\n\tOrdinal0 [0x00962766+10086]\n\tOrdinal0 [0x00962E30+11824]\n\tOrdinal0 [0x00AFD8D7+1693911]\n\tGetHandleVerifier [0x00C54036+522726]\n\tGetHandleVerifier [0x00C53D74+522020]\n\tGetHandleVerifier [0x00C69187+609079]\n\tGetHandleVerifier [0x00C548A6+524886]\n\tOrdinal0 [0x00AF5CBC+1662140]\n\tOrdinal0 [0x009621E2+8674]\n\tOrdinal0 [0x00961F26+7974]\n\tGetHandleVerifier [0x00E6357C+2682668]\n\tBaseThreadInitThunk [0x75046359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77337C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77337BF4+180]\n, error=invalid session id, message=invalid session id}",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: /html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a",
+            "{\"id\":\"-1\"}"
+          ],
+          "result": "Timed out after 10 seconds waiting for presence of element located by: By.xpath: /html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: QAFExtendedWebDriver",
+          "subLogs": [],
+          "duration": 548601881
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=/html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a, using=xpath}"
+          ],
+          "result": "{stacktrace=Backtrace:\n\tOrdinal0 [0x00BB5F73+2449267]\n\tOrdinal0 [0x00AE8361+1606497]\n\tOrdinal0 [0x009DF812+522258]\n\tOrdinal0 [0x00971949+72009]\n\tOrdinal0 [0x00989F27+171815]\n\tOrdinal0 [0x009889FA+166394]\n\tOrdinal0 [0x009885D4+165332]\n\tOrdinal0 [0x0096232E+9006]\n\tOrdinal0 [0x00962766+10086]\n\tOrdinal0 [0x00962E30+11824]\n\tOrdinal0 [0x00AFD8D7+1693911]\n\tGetHandleVerifier [0x00C54036+522726]\n\tGetHandleVerifier [0x00C53D74+522020]\n\tGetHandleVerifier [0x00C69187+609079]\n\tGetHandleVerifier [0x00C548A6+524886]\n\tOrdinal0 [0x00AF5CBC+1662140]\n\tOrdinal0 [0x009621E2+8674]\n\tOrdinal0 [0x00961F26+7974]\n\tGetHandleVerifier [0x00E6357C+2682668]\n\tBaseThreadInitThunk [0x75046359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77337C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77337BF4+180]\n, error=invalid session id, message=invalid session id}",
+          "subLogs": [],
+          "duration": 8
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get 'https://www.food.com/'",
+      "type": "TestStepPass",
+      "duration": 4,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'recipe.search'",
+      "type": "TestStepFail",
+      "screenshot": "img/TestSearchBoxSearch_brbr9qx9zop645782.png",
+      "duration": 10125,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for presence of element located by: By.xpath: /html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: QAFExtendedWebDriver",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for presence of element located by: By.xpath: /html/body/div[3]/div[1]/section[1]/header/div/div/div/nav[1]/ul/li[1]/a\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: QAFExtendedWebDriver\r\n\tat com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:168)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:213)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:302)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:249)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.click_aroundBody38(CommonStep.java:452)\r\n\tat com.qmetry.qaf.automation.step.CommonStep$AjcClosure39.run(CommonStep.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:130)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:80)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.click(CommonStep.java:451)\r\n\tat qaf.example.steps.StepsLibrary.baseSection(StepsLibrary.java:27)\r\n\tat qaf.example.steps.StepsLibrary.searchRecipeSearch(StepsLibrary.java:61)\r\n\tat qaf.example.tests.SampleTest.testSearchBoxSearch(SampleTest.java:64)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:778)\r\n\tat org.testng.TestRunner.run(TestRunner.java:632)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\nCaused by: org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=Backtrace:\n\tOrdinal0 [0x00BB5F73+2449267]\n\tOrdinal0 [0x00AE8361+1606497]\n\tOrdinal0 [0x009DF812+522258]\n\tOrdinal0 [0x00971949+72009]\n\tOrdinal0 [0x00989F27+171815]\n\tOrdinal0 [0x009889FA+166394]\n\tOrdinal0 [0x009885D4+165332]\n\tOrdinal0 [0x0096232E+9006]\n\tOrdinal0 [0x00962766+10086]\n\tOrdinal0 [0x00962E30+11824]\n\tOrdinal0 [0x00AFD8D7+1693911]\n\tGetHandleVerifier [0x00C54036+522726]\n\tGetHandleVerifier [0x00C53D74+522020]\n\tGetHandleVerifier [0x00C69187+609079]\n\tGetHandleVerifier [0x00C548A6+524886]\n\tOrdinal0 [0x00AF5CBC+1662140]\n\tOrdinal0 [0x009621E2+8674]\n\tOrdinal0 [0x00961F26+7974]\n\tGetHandleVerifier [0x00E6357C+2682668]\n\tBaseThreadInitThunk [0x75046359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77337C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77337BF4+180]\n, error=invalid session id, message=invalid session id}\nBuild info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'\nSystem info: host: 'DESKTOP-BJ7Q9MK', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: QAFExtendedWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:396)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:169)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)\r\n\tat com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:147)\r\n\t... 39 more\r\nCaused by: java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to org.openqa.selenium.WebElement\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:373)\r\n\t... 51 more\r\n"
+}

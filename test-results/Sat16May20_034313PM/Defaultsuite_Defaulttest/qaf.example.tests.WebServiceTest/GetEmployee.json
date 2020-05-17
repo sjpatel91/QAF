@@ -1,0 +1,24 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "GET:http://dummy.restapiexample.com/api/v1/employee/1",
+      "args": [
+        "/api/v1/employee/1",
+        null
+      ],
+      "result": "GET http://dummy.restapiexample.com/api/v1/employee/1 returned a response status of 400 Bad Request",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nGET http://dummy.restapiexample.com/api/v1/employee/1\nAccept: application/json\n"
+          ],
+          "result": "Client in-bound response\n400\nX-Middleton-Response: 400\nServer: nginx/1.16.0\nAccess-Control-Allow-Origin: *\nPragma: no-cache\nDate: Sat, 16 May 2020 22:43:15 GMT\nX-Ezoic-Cdn: Miss\nResponse: 400\nReferrer-Policy: \nHost-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==\nAccess-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client\nCache-Control: no-cache\nX-Sol: pub_site\nVary: Accept-Encoding,User-Agent,X-APP-JSON\nVary: Accept-Encoding\nSet-Cookie: active_template::133674=pub_site.1589668994; Path=/; Domain=restapiexample.com; Expires=Mon, 18 May 2020 22:43:14 UTC\nSet-Cookie: ezoab_133674=mod4; Path=/; Domain=restapiexample.com; Expires=Sun, 17 May 2020 00:43:14 UTC\nSet-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Sun, 17 May 2020 00:43:14 UTC\nSet-Cookie: ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Sat, 16 May 2020 23:13:14 UTC\nSet-Cookie: PHPSESSID=1098e11bdeb82f3d2bed431bee74a101; path=/\nExpires: Thu, 19 Nov 1981 08:52:00 GMT\nContent-Length: 75\nContent-Type: application/json;charset=utf-8\n\n{\"status\":\"failed\",\"message\":\"Oops! someting issue found to fetch record.\"}\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": []
+}

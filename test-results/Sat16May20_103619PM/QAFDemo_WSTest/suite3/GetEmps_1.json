@@ -1,0 +1,92 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userRequests",
+      "args": [
+        "[get.employee.call]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "GET:http://dummy.restapiexample.com/api/v1/employee/1",
+          "args": [
+            "/api/v1/employee/1",
+            null
+          ],
+          "result": "GET http://dummy.restapiexample.com/api/v1/employee/1 returned a response status of 400 Bad Request",
+          "subLogs": [
+            {
+              "args": [
+                "Client out-bound request\nGET http://dummy.restapiexample.com/api/v1/employee/1\n"
+              ],
+              "result": "Client in-bound response\n400\nX-Middleton-Response: 400\nServer: nginx/1.16.0\nAccess-Control-Allow-Origin: *\nPragma: no-cache\nDate: Sun, 17 May 2020 05:36:22 GMT\nX-Ezoic-Cdn: Miss\nResponse: 400\nReferrer-Policy: \nHost-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==\nAccess-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client\nCache-Control: no-cache\nX-Sol: pub_site\nVary: Accept-Encoding,User-Agent,X-APP-JSON\nVary: Accept-Encoding\nSet-Cookie: active_template::133674=pub_site.1589693782; Path=/; Domain=restapiexample.com; Expires=Tue, 19 May 2020 05:36:22 UTC\nSet-Cookie: ezoab_133674=mod33-c; Path=/; Domain=restapiexample.com; Expires=Sun, 17 May 2020 07:36:22 UTC\nSet-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Sun, 17 May 2020 07:36:22 UTC\nSet-Cookie: ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Sun, 17 May 2020 06:06:22 UTC\nSet-Cookie: PHPSESSID=8ee4de17c3189e7eb342a026399c0552; path=/\nExpires: Thu, 19 Nov 1981 08:52:00 GMT\nContent-Length: 75\nContent-Type: application/json;charset=utf-8\n\n{\"status\":\"failed\",\"message\":\"Oops! someting issue found to fetch record.\"}\n",
+              "subLogs": [],
+              "duration": -1
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "responseShouldHaveStatusCode",
+      "args": [
+        "[400]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "responseShouldHaveStatus",
+      "args": [
+        "[BAD_REQUEST]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "When user requests 'get.employee.call'",
+      "type": "TestStepPass",
+      "duration": 511,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then response should have status code 400",
+      "type": "TestStepPass",
+      "duration": 2,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Response Status\nExpected: &lt;400&gt;\n     Actual: was &lt;400&gt;",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And response should have status 'BAD_REQUEST'",
+      "type": "TestStepPass",
+      "duration": 1,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Response Status\nExpected: equalToIgnoringCase(\"BAD_REQUEST\")\n     Actual: was BAD_REQUEST",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

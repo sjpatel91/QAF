@@ -1,0 +1,47 @@
+{
+  "total": 15,
+  "pass": 0,
+  "fail": 9,
+  "skip": 0,
+  "classes": [
+    "qaf.example.tests.LoginTest",
+    "qaf.example.tests.RecipeTest",
+    "qaf.example.tests.SampleTest"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "browserName": "chrome",
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "version": "",
+      "platform": "ANY",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "message": "session not created\nfrom chrome not reachable\n  (Session info: chrome=81.0.4044.138)\n  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18362 x86_64)",
+      "platform": "ANY"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "0-RC3",
+      "qaf-Version": "3.0",
+      "qaf-Build-Time": "13-Apr-2020 05:11:28"
+    },
+    "run-parameters": {
+      "baseurl": "http://dummy.restapiexample.com/api/v1",
+      "resources": "resources"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_211",
+      "os.arch": "amd64",
+      "host": "DESKTOP-BJ7Q9MK",
+      "os.name": "Windows 10",
+      "user.name": "sjpat",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1589686384299,
+  "endTime": 1589686501440
+}

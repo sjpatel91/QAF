@@ -1,0 +1,152 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "recipe",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 2.0,
+        "name": "RecipeSearch",
+        "reference": "scenarios/suite2.bdd",
+        "resultFileName": "RecipeSearch",
+        "sign": "scenarios.suite2.bdd.RecipeSearch()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1589686576163,
+      "duration": 13466,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "dropdown recipe types",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 10.0,
+        "name": "recipeDropdownSearch",
+        "reference": "scenarios/suite2.bdd",
+        "resultFileName": "RecipeDropdownSearch",
+        "sign": "scenarios.suite2.bdd.recipeDropdownSearch()[pri:1002, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]"
+      },
+      "dependsOn": [],
+      "startTime": 1589686589667,
+      "duration": 11,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "recipe of day",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 18.0,
+        "name": "recipeDaySearch",
+        "reference": "scenarios/suite2.bdd",
+        "resultFileName": "RecipeDaySearch",
+        "sign": "scenarios.suite2.bdd.recipeDaySearch()[pri:1003, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1589686589704,
+      "duration": 15,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "serve size",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 26.0,
+        "name": "serveSearch",
+        "reference": "scenarios/suite2.bdd",
+        "resultFileName": "ServeSearch",
+        "sign": "scenarios.suite2.bdd.serveSearch()[pri:1004, instance:com.qmetry.qaf.automation.step.client.Scenario@3ec]"
+      },
+      "dependsOn": [],
+      "startTime": 1589686589755,
+      "duration": 30,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "search of recipe",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 34.0,
+        "name": "searchRecipeSearch",
+        "reference": "scenarios/suite2.bdd",
+        "resultFileName": "SearchRecipeSearch",
+        "sign": "scenarios.suite2.bdd.searchRecipeSearch()[pri:1005, instance:com.qmetry.qaf.automation.step.client.Scenario@3ed]"
+      },
+      "dependsOn": [],
+      "startTime": 1589686589823,
+      "duration": 17,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "yield size",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 42.0,
+        "name": "yieldSearch",
+        "reference": "scenarios/suite2.bdd",
+        "resultFileName": "YieldSearch",
+        "sign": "scenarios.suite2.bdd.yieldSearch()[pri:1006, instance:com.qmetry.qaf.automation.step.client.Scenario@3ee]"
+      },
+      "dependsOn": [],
+      "startTime": 1589686589874,
+      "duration": 11,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "login",
+        "groups": [
+          "login"
+        ],
+        "lineNo": 50,
+        "name": "loginSearch",
+        "reference": "scenarios/suite2.bdd",
+        "resultFileName": "LoginSearch",
+        "sign": "scenarios.suite2.bdd.loginSearch()[pri:1007, instance:com.qmetry.qaf.automation.step.client.Scenario@3ef]",
+        "threshold": 10
+      },
+      "dependsOn": [],
+      "startTime": 1589686589924,
+      "duration": 13,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

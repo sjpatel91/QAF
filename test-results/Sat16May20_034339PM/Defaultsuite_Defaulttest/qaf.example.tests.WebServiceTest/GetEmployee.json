@@ -1,0 +1,33 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "GET:http://dummy.restapiexample.com/api/v1/employee/1",
+      "args": [
+        "/api/v1/employee/1",
+        null
+      ],
+      "result": "GET http://dummy.restapiexample.com/api/v1/employee/1 returned a response status of 400 Bad Request",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nGET http://dummy.restapiexample.com/api/v1/employee/1\nAccept: application/json\n"
+          ],
+          "result": "Client in-bound response\n400\nX-Middleton-Response: 400\nServer: nginx/1.16.0\nAccess-Control-Allow-Origin: *\nPragma: no-cache\nDate: Sat, 16 May 2020 22:43:40 GMT\nX-Ezoic-Cdn: Miss\nResponse: 400\nReferrer-Policy: \nHost-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==\nAccess-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client\nCache-Control: no-cache\nX-Sol: pub_site\nVary: Accept-Encoding,User-Agent,X-APP-JSON\nVary: Accept-Encoding\nSet-Cookie: active_template::133674=pub_site.1589669020; Path=/; Domain=restapiexample.com; Expires=Mon, 18 May 2020 22:43:40 UTC\nSet-Cookie: ezoab_133674=mod33; Path=/; Domain=restapiexample.com; Expires=Sun, 17 May 2020 00:43:40 UTC\nSet-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Sun, 17 May 2020 00:43:40 UTC\nSet-Cookie: ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Sat, 16 May 2020 23:13:40 UTC\nSet-Cookie: PHPSESSID=0bff3b4730c3e72cce41d92259bd6637; path=/\nExpires: Thu, 19 Nov 1981 08:52:00 GMT\nContent-Length: 75\nContent-Type: application/json;charset=utf-8\n\n{\"status\":\"failed\",\"message\":\"Oops! someting issue found to fetch record.\"}\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Response Status\nExpected: &lt;Bad Request&gt;\n     Actual: was &lt;Bad Request&gt;",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

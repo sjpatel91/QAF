@@ -1,0 +1,25 @@
+
+SCENARIO: getEmps
+META-DATA: {"description":"Get all employees","groups": ["WS"]}
+
+   When user requests 'get.employees.call'
+   Then response should have status code '200'
+   And response should have status 'OK'
+END
+
+SCENARIO: getEmps
+META-DATA: {"description":"Get employee with id 1","groups": ["WS"]}
+
+   When user requests 'get.employee.call'
+   Then response should have status code '400'
+   And response should have status 'BAD_REQUEST'
+END
+
+
+
+
+
+
+
+
+

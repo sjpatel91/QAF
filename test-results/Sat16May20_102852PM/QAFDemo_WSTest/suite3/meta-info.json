@@ -1,0 +1,46 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Get all employees",
+        "groups": [
+          "WS"
+        ],
+        "lineNo": 2.0,
+        "name": "getEmps",
+        "reference": "scenarios/suite3.bdd",
+        "resultFileName": "GetEmps",
+        "sign": "scenarios.suite3.bdd.getEmps()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589693332988,
+      "duration": 1273,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Get employee with id 1",
+        "groups": [
+          "WS"
+        ],
+        "lineNo": 10,
+        "name": "getEmps",
+        "reference": "scenarios/suite3.bdd",
+        "resultFileName": "GetEmps_1",
+        "sign": "scenarios.suite3.bdd.getEmps()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1589693334293,
+      "duration": 438,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

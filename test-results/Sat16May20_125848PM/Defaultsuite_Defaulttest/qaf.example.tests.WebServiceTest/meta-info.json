@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "createOrder",
+        "resultFileName": "CreateOrder",
+        "sign": "WebServiceTest.createOrder()[pri:0, instance:qaf.example.tests.WebServiceTest@145f66e3]"
+      },
+      "dependsOn": [],
+      "startTime": 1589659128132,
+      "duration": 264,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

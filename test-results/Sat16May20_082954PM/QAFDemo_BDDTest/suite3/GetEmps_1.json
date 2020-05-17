@@ -1,0 +1,55 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "When user requests '${get.employee.call}'",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then response should have status code '<400>'",
+      "args": [
+        "[${400}]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And response should have status 'BAD_REQUEST'",
+      "args": [
+        "[BAD_REQUEST]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "When user requests '${get.employee.call}' :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then response should have status code '<400>'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And response should have status 'BAD_REQUEST'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: When user requests '${get.employee.call}'@scenarios/suite3.bdd#13 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\r\n\tat .When user requests '${get.employee.call}'(scenarios/suite3.bdd:13)\r\n"
+}

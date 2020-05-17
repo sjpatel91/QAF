@@ -1,0 +1,67 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "recipe",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 2.0,
+        "name": "RecipeSearch",
+        "reference": "scenarios/suite2.bdd",
+        "resultFileName": "RecipeSearch",
+        "sign": "scenarios.suite2.bdd.RecipeSearch()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1589686296240,
+      "duration": 28468,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "dropdown recipe types",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 10.0,
+        "name": "recipeDropdownSearch",
+        "reference": "scenarios/suite2.bdd",
+        "resultFileName": "RecipeDropdownSearch",
+        "sign": "scenarios.suite2.bdd.recipeDropdownSearch()[pri:1002, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]"
+      },
+      "dependsOn": [],
+      "startTime": 1589686336778,
+      "duration": 12041,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "recipe of day",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 18,
+        "name": "recipeDaySearch",
+        "reference": "scenarios/suite2.bdd",
+        "resultFileName": "RecipeDaySearch",
+        "sign": "scenarios.suite2.bdd.recipeDaySearch()[pri:1003, instance:com.qmetry.qaf.automation.step.client.Scenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1589686360894,
+      "duration": 12066,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

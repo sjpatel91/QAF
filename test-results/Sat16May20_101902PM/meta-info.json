@@ -1,0 +1,13 @@
+{
+  "name": "QAF Demo",
+  "status": "unstable",
+  "tests": [
+    "QAFDemo_WSTest"
+  ],
+  "total": 2,
+  "pass": 0,
+  "fail": 0,
+  "skip": 2,
+  "startTime": 1589692742417,
+  "endTime": 1589692742932
+}

@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [QAF Demo]">
+  <test name="WS Test(failed)">
+    <groups>
+      <run>
+        <include name="WS"/>
+      </run>
+    </groups>
     <classes>
-      <class name="qaf.example.tests.LoginTest">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
         <methods>
+          <include name="scenario"/>
+          <include name="scenario"/>
           <include name="setupTest"/>
-          <include name="testLogin" invocation-numbers="0"/>
           <include name="setupSuit"/>
           <include name="setup"/>
           <include name="afterClass"/>
@@ -15,7 +21,7 @@
           <include name="afterMethod"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- qaf.example.tests.LoginTest -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- WS Test(failed) -->
+</suite> <!-- Failed suite [QAF Demo] -->

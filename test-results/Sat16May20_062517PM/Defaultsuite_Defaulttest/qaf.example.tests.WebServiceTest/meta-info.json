@@ -1,0 +1,36 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "getEnmployees",
+        "resultFileName": "GetEnmployees",
+        "sign": "WebServiceTest.getEnmployees()[pri:0, instance:qaf.example.tests.WebServiceTest@145f66e3]"
+      },
+      "dependsOn": [],
+      "startTime": 1589678717517,
+      "duration": 797,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "getEmployee",
+        "resultFileName": "GetEmployee",
+        "sign": "WebServiceTest.getEmployee()[pri:0, instance:qaf.example.tests.WebServiceTest@145f66e3]"
+      },
+      "dependsOn": [],
+      "startTime": 1589678718347,
+      "duration": 956,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

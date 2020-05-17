@@ -1,0 +1,34 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "GET:http://dummy.restapiexample.com/api/v1/get.employees.call",
+      "args": [
+        "/api/v1/get.employees.call",
+        null
+      ],
+      "result": "GET http://dummy.restapiexample.com/api/v1/get.employees.call returned a response status of 404 Not Found",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nGET http://dummy.restapiexample.com/api/v1/get.employees.call\nAccept: application/json\n"
+          ],
+          "result": "Client in-bound response\n404\nX-Middleton-Response: 404\nServer: nginx/1.16.0\nAccess-Control-Allow-Origin: *\nPragma: no-cache\nDate: Sun, 17 May 2020 01:31:48 GMT\nX-Ezoic-Cdn: Miss\nResponse: 404\nReferrer-Policy: \nHost-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==\nAccess-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client\nCache-Control: no-cache\nX-Sol: pub_site\nVary: User-Agent,Accept-Encoding,X-APP-JSON\nVary: Accept-Encoding\nSet-Cookie: active_template::133674=pub_site.1589679107; Path=/; Domain=restapiexample.com; Expires=Tue, 19 May 2020 01:31:47 UTC\nSet-Cookie: ezoab_133674=mod1; Path=/; Domain=restapiexample.com; Expires=Sun, 17 May 2020 03:31:47 UTC\nSet-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Sun, 17 May 2020 03:31:47 UTC\nSet-Cookie: ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Sun, 17 May 2020 02:01:47 UTC\nSet-Cookie: PHPSESSID=ffb81b0909be67a347aea26ea26f294b; path=/\nExpires: Thu, 19 Nov 1981 08:52:00 GMT\nContent-Length: 23\nContent-Type: application/json\n\n{\"message\":\"Not found\"}\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Response Status\nExpected: equalToIgnoringCase(\"OK\")\n     but: was NOT_FOUND",
+      "type": "Fail",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.AssertionError: Response Status\nExpected: equalToIgnoringCase(\"OK\")\n     but: was NOT_FOUND\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\r\n\tat org.junit.Assert.assertThat(Assert.java:956)\r\n\tat qaf.example.steps.StepsEmployee.responseShouldHaveStatus(StepsEmployee.java:14)\r\n\tat qaf.example.tests.WebServiceTest.getEnmployees(WebServiceTest.java:22)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:778)\r\n\tat org.testng.TestRunner.run(TestRunner.java:632)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n"
+}

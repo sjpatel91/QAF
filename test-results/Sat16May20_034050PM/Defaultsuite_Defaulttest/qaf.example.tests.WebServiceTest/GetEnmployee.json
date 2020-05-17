@@ -1,0 +1,33 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "GET:http://dummy.restapiexample.com/api/v1/employees/1",
+      "args": [
+        "/api/v1/employees/1",
+        null
+      ],
+      "result": "GET http://dummy.restapiexample.com/api/v1/employees/1 returned a response status of 404 Not Found",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nGET http://dummy.restapiexample.com/api/v1/employees/1\nAccept: application/json\n"
+          ],
+          "result": "Client in-bound response\n404\nX-Middleton-Response: 404\nServer: nginx/1.16.0\nAccess-Control-Allow-Origin: *\nPragma: no-cache\nDate: Sat, 16 May 2020 22:40:51 GMT\nX-Ezoic-Cdn: Miss\nResponse: 404\nReferrer-Policy: \nHost-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==\nAccess-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client\nCache-Control: no-cache\nX-Sol: pub_site\nVary: User-Agent,Accept-Encoding,X-APP-JSON\nVary: Accept-Encoding\nSet-Cookie: active_template::133674=pub_site.1589668851; Path=/; Domain=restapiexample.com; Expires=Mon, 18 May 2020 22:40:51 UTC\nSet-Cookie: ezoab_133674=mod7-c; Path=/; Domain=restapiexample.com; Expires=Sun, 17 May 2020 00:40:51 UTC\nSet-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Sun, 17 May 2020 00:40:51 UTC\nSet-Cookie: ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Sat, 16 May 2020 23:10:51 UTC\nSet-Cookie: PHPSESSID=e8653734c50b028c004c4f8aec45d28b; path=/\nExpires: Thu, 19 Nov 1981 08:52:00 GMT\nContent-Length: 23\nContent-Type: application/json\n\n{\"message\":\"Not found\"}\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Response Status\nExpected: &lt;OK&gt;\n     Actual: was &lt;Not Found&gt;",
+      "type": "Fail",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

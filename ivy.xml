@@ -22,5 +22,6 @@
 			<artifact name="aspectjtools" type="jar"></artifact>
 		</dependency>
 		<dependency org="ant-contrib" name="ant-contrib" rev="1.0b3"/>
+		<dependency org="com.qmetry" name="qaf-support-ws" rev="latest.integration" />
 	</dependencies>
 </ivy-module>
